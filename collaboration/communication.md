@@ -21,7 +21,7 @@ new challenge, and asking questions asynchronously.
 
 | Day    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 |--------|:------:|:-------:|:---------:|:--------:|:------:|:--------:|:------:|
-| Caesar | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
+| Caesar | 7-12 PM | 7-12 PM | 7-12 PM  | 5-8 PM   | 5-9 PM | 4-6 PM | 7-12 PM |
 | Fahed  | 6-8 PM | 7-9 PM  | 6-8 PM    | 5-7 PM   | 8-9 PM | 8-9 PM   | 6-8 PM |
 | Maria | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
 | Mohammad | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM|
@@ -31,7 +31,7 @@ new challenge, and asking questions asynchronously.
 ### How many hours everyone has per day
 
 - Fahed: 1 ~ 2 hours
-- Caesar:
+- Caesar: 3 ~ 5 hours
 - Maria:
 - Mohammad:
 - Terry:
