@@ -1,34 +1,49 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+# 🧱 Constraints
 
-# Constraints
+Some boundaries around our project — these constraints helpus
+stay realistic, focused, and creative.
 
-Some boundaries around our project.
+---
 
-## External
+## 🌍 External Constraints  
 
-<!--
-  constraints coming from the outside that your team has no control over:
-  - project deadlines
-  - number of unit tests required to pass a code review
-  - technologies (sometimes a client will tell you what to use)
-  - power or connectivity
-  - ...
--->
+_Constraints outside of our control._
 
-## Internal: Involuntary
+- We have a fixed timeline (project must be completed by August 25).
+- Our project scope must remain within a data science context
+(no full-stack apps or hardware prototypes).
+- We may only use public or ethically sourced data.
+- All deliverables must follow the MIT Emerging Talent milestone structure and deadlines.
+- Group members are spread across different time zones and schedules.
 
-<!--
-  constraints that come from within your team, and you have no control over:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+---
 
-## Internal: Voluntary
+## ⛓️ Internal Constraints – Involuntary  
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+_Constraints we didn’t choose, but still need to work with._
+
+- Team members have different levels of technical experience with data analysis
+and Git.
+- Internet stability and device access may vary for team members.
+- Limited access to proprietary datasets or paid tools/services.
+- English is not the first language for some members, which may
+affect communication pace or clarity.
+
+---
+
+## 🎯 Internal Constraints – Voluntary  
+
+_Constraints we are choosing to adopt to help us focus and grow._
+
+- We will not aim to build a full product; instead, we’ll focus on strong research,
+analysis, and communication artifacts.
+- We will set a soft deadline of 48 hours before each milestone
+to allow for reviews and backups.
+- We will only include tools and code we understand and can explain clearly.
+- We will prioritize clarity over complexity in both data and code.
+
+---
+
+> Defining clear constraints helps us commit to achievable goals and encourages
+> creative, focused work.
+>
