@@ -50,7 +50,7 @@ with task tracking managed using GitHub issues and project boards.💬
 🕒 Scheduling and Deadlines
 
 Each team member should allocate specific working hours within their schedule
-to ensure milestones are delivered on time while maintaining productivity and well-being.⏱️'
+to ensure milestones are delivered on time while maintaining productivity and well-being.⏱️
 
 ---
 
