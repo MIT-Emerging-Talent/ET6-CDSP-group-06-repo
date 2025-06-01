@@ -1,6 +1,8 @@
 # 🎯 Learning Goals
 
-This document outlines both our shared and individual learning objectives for this project. While each member may have different goals, aligning expectations early ensures stronger collaboration and more meaningful outcomes.
+This document outlines both our shared and individual learning
+objectives for this project. While each member may have different goals,
+aligning expectations early ensures stronger collaboration and more meaningful outcomes.
 
 ---
 
