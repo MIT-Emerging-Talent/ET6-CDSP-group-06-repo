@@ -44,6 +44,17 @@ stakeholder-oriented communication.
 
 ### **Caesar**
 
+- Develop the ability to work collaboratively with
+ team members to solve complex data science problems
+- Learn how to collect data, data types, and key metrics
+ to satisfy our research question.
+- Develop interpersonal skills for working in diverse
+ and interdisciplinary teams.
+- Gain hands-on experience using diverse tools of collaboration
+ (Git, Github).
+- Solidify my knowledge in python, and using it in a real life
+ project.
+
 ---
 
 ### **Maria**
