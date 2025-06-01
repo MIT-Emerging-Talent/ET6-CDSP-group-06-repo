@@ -44,13 +44,15 @@ to allow for reviews and backups.
 
 📨 Communication
 
-- Communication will primarily be asynchronous via Slack and GitHub,
-with task tracking managed using GitHub issues and project boards.💬
+- Communication will primarily be asynchronous through Slack for quick updates
+and GitHub for task tracking and collaboration. We’ll manage our workflow using
+GitHub Issues and Project Boards.💬
 
 🕒 Scheduling and Deadlines
 
-Each team member should allocate specific working hours within their schedule
-to ensure milestones are delivered on time while maintaining productivity and well-being.⏱️
+- Each team member is encouraged to dedicate consistent working hours throughout
+the week. This helps ensure steady progress, timely milestone delivery,
+and a healthy balance between productivity and well-being.
 
 ---
 
