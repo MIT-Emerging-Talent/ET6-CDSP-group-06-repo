@@ -42,6 +42,16 @@ to allow for reviews and backups.
 - We will only include tools and code we understand and can explain clearly.
 - We will prioritize clarity over complexity in both data and code.
 
+📨 Communication
+
+- Communication will primarily be asynchronous via Slack and GitHub,
+with task tracking managed using GitHub issues and project boards.💬
+
+🕒 Scheduling and Deadlines
+
+Each team member should allocate specific working hours within their schedule
+to ensure milestones are delivered on time while maintaining productivity and well-being.⏱️'
+
 ---
 
 > Defining clear constraints helps us commit to achievable goals and encourages
