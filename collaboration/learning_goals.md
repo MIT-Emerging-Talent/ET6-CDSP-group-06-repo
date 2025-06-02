@@ -63,6 +63,14 @@ stakeholder-oriented communication.
 
 ### **Mohammad**
 
+- Build interactive and dynamic data visualizations using Python libraries.
+- Master fundamental algorithms and data structures.
+- Learn how to organize data in tables and files efficiently.
+- Enhance proficiency with GitHub tools.
+- Practice writing efficient, well-structured Python code,
+   emphasizing readability and reusability.
+- Improve problem-solving skills
+
 ---
 
 ### **Terry**
