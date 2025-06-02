@@ -79,6 +79,14 @@ stakeholder-oriented communication.
 
 ### **Tomas**
 
+- Master github workflows.
+- Understand how to prioritize data quality over quantity.
+- Learn how feature engineering works.
+- Improve my communication skills by working closely with team members.
+- Balance model interpretablity and complexity, as trade-offs between this two
+   can critical in data science.
+- Write efficient and reusable python code
+
 ---
 
 > *"Learning is not attained by chance, it must be sought for with ardor."*  
