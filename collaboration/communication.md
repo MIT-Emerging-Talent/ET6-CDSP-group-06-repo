@@ -24,7 +24,7 @@ new challenge, and asking questions asynchronously.
 | Caesar | 7-12 PM | 7-12 PM | 7-12 PM  | 5-8 PM   | 5-9 PM | 4-6 PM | 7-12 PM |
 | Fahed  | 6-8 PM | 7-9 PM  | 6-8 PM    | 5-7 PM   | 8-9 PM | 8-9 PM   | 6-8 PM |
 | Maria | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
-| Mohammad | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM|
+| Mohammad | 7-9 PM | 7-9 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM   | 7-9 PM|
 | Terry | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
 | Tomas | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
 
@@ -33,7 +33,7 @@ new challenge, and asking questions asynchronously.
 - Fahed: 1 ~ 2 hours
 - Caesar: 3 ~ 5 hours
 - Maria:
-- Mohammad:
+- Mohammad: 1 ~ 2 hours
 - Terry:
 - Tomas:
 
