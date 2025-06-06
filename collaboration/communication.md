@@ -25,7 +25,7 @@ new challenge, and asking questions asynchronously.
 | Fahed  | 6-8 PM | 7-9 PM  | 6-8 PM    | 5-7 PM   | 8-9 PM | 8-9 PM   | 6-8 PM |
 | Maria | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
 | Mohammad | 7-9 PM | 7-9 PM  | 7-9 PM    | 7-9 PM   | 7-9 PM | 7-9 PM   | 7-9 PM|
-| Terry | x-x PM | x-x PM  | x-x PM    | x-x PM   | x-x PM | x-x PM   | x-x PM |
+| Terry | 3-5 PM | 3-5 PM  | 3-5 PM    | 3-5 PM   | 3-5 PM | 9-12 PM   | 1-5 PM |
 | Tomas | 6-8 PM | 6-8 PM  | 7-9 PM    | 7-9 PM   | 6-8 PM | 6-8 PM   | 6-8 PM |
 
 ### How many hours everyone has per day
@@ -34,7 +34,7 @@ new challenge, and asking questions asynchronously.
 - Caesar: 3 ~ 5 hours
 - Maria:
 - Mohammad: 1 ~ 2 hours
-- Terry:
+- Terry: 3 hours
 - Tomas: 2 hours
 
 ## Asking for Help
