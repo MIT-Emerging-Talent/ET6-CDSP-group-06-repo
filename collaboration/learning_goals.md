@@ -75,6 +75,14 @@ stakeholder-oriented communication.
 
 ### **Terry**
 
+- Learn more about data science
+- Apply data science skills to real-world projects and case studies.
+- Develop essential skills in teamwork, communication, and presentation.
+- Develop skills in identifying and framing problems in data science.
+- Develop skills in creating effective data visualizations to communicate insights.
+- To gain more practical expirience using the python programming language.
+- Bieng positioned to solve other data science problems and challenges.
+
 ---
 
 ### **Tomas**
