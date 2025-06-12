@@ -77,6 +77,13 @@ Inclusive design ensures participation from diverse student populations:
 **language accommodations** support accessibility.
 - Incorporating **diverse perspectives** fosters a sense of belonging [2].
 
+## 11. Conclusion
+
+Engaging students in online learning requires a multifaceted approach involving
+instructional design, technology, communication, and support. These strategies
+can create interactive, inclusive, and responsive learning environments that
+improve participation and academic performance.
+
 ## References
 
 1. [Borup, J., West, R. E., Thomas, R., & Graham, C. R. (2015). *The adolescent community of engagement framework*](http://www.editlib.org/p/112371)
