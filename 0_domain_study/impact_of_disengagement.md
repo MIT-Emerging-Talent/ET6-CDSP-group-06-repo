@@ -2,10 +2,9 @@
 
 ## Student disengagement in online learning
 
-environments has significant and multifaceted
-negative impacts on academic outcomes, well-being, and overall educational experience.
-Research consistently highlights several key areas where disengagement manifests
-its detrimental effects
+environments has significant and multifaceted negative impacts on academic outcomes,
+well-being, and overall educational experience. Research consistently highlights
+several key areas where disengagement manifests its detrimental effects
 
 1. ## **Reduced Academic Performance and Learning Outcomes:**  
 
@@ -49,10 +48,9 @@ its detrimental effects
 
 ### In summary
 
-student disengagement in online learning is not merely a
-passive state but an active barrier to effective education,
-leading to a cascade of negative consequences that affect individual
-student success and the overall quality of online educational programs
+student disengagement in online learning is not merely a assive state but an active
+barrier to effective education, leading to a cascade of negative consequences that
+affect individual student success and the overall quality of online educational programs
 
 ---
 
