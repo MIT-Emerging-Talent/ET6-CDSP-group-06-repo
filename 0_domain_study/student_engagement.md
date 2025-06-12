@@ -86,12 +86,23 @@ improve participation and academic performance.
 
 ## References
 
-1. [Borup, J., West, R. E., Thomas, R., & Graham, C. R. (2015). *The adolescent community of engagement framework*](http://www.editlib.org/p/112371)
-2. [Castillo-Montoya, M. (2016). *Deepening understanding of prior knowledge.*](https://doi.org/10.1080/13562517.2016.1273208)
-3. [Darby, F., & Lang, J. M. (2019). *Small Teaching Online: Applying Learning Science in Online Classes*](https://www.wiley.com/en-us/Small+Teaching+Online%3A+Applying+Learning+Science+in+Online+Classes-p-9781119619093)
-4. [Domínguez, A. et al. (2013). *Gamifying learning experiences.*](https://doi.org/10.1016/j.compedu.2012.12.020)
-5. [Garrison, D. R., Anderson, T., & Archer, W. (2000). *Critical inquiry in a text-based environment.*](https://doi.org/10.1016/S1096-7516(00)00016-6)
-6. [Macfadyen, L. P., & Dawson, S. (2012). *Numbers are not enough.*](https://www.jstor.org/stable/jeductechsoci.15.3.149)
-7. [Patall, E. A., Cooper, H., & Robinson, J. C. (2010). *The effects of choice on intrinsic motivation and related outcomes.*](https://doi.org/10.1037/0033-2909.134.2.270)
-8. [Richardson, J. C., Maeda, Y., Swan, K., & Ice, P. (2017). *Social presence in relation to students' satisfaction and learning in the online environment.*](https://doi.org/10.1016/j.chb.2017.02.001)
-9. [Xiao, J. (2018). *On the margins or at the center? Distance education in higher education.*](https://doi.org/10.1080/01587919.2018.1429213)
+1. [Borup, J., West, R. E., Thomas, R., & Graham, C. R. (2015). *The
+adolescent community of engagement framework*](http://www.editlib.org/p/112371)
+2. [Castillo-Montoya, M. (2016). *Deepening understanding of prior knowledge.*
+](https://doi.org/10.1080/13562517.2016.1273208)
+3. [Darby, F., & Lang, J. M. (2019). *Small Teaching Online: Applying Learning
+Science in Online
+Classes*](https://www.wiley.com/en-us/Small+Teaching+Online%3A+Applying+Learning+Science+in+Online+Classes-p-9781119619093)
+4. [Domínguez, A. et al. (2013). *Gamifying learning
+experiences.*](https://doi.org/10.1016/j.compedu.2012.12.020)
+5. [Garrison, D. R., Anderson, T., & Archer, W. (2000). *Critical inquiry in a
+text-based environment.*](https://doi.org/10.1016/S1096-7516(00)00016-6)
+6. [Macfadyen, L. P., & Dawson, S. (2012). *Numbers are
+not enough.*](https://www.jstor.org/stable/jeductechsoci.15.3.149)
+7. [Patall, E. A., Cooper, H., & Robinson, J. C. (2010). *The effects of choice
+on intrinsic motivation and related outcomes.*](https://doi.org/10.1037/0033-2909.134.2.270)
+8. [Richardson, J. C., Maeda, Y., Swan, K., & Ice, P. (2017). *Social presence
+in relation to students' satisfaction and learning in the online
+environment.*](https://doi.org/10.1016/j.chb.2017.02.001)
+9. [Xiao, J. (2018). *On the margins or at the center? Distance education in
+higher education.*](https://doi.org/10.1080/01587919.2018.1429213)
