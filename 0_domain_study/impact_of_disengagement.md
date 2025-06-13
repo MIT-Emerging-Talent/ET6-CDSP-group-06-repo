@@ -11,13 +11,13 @@ several key areas where disengagement manifests its detrimental effects
    Disengaged students are less likely to interact with course materials,
    participate in discussions, or complete assignments, directly leading
    to lower grades, poorer understanding of concepts, and ultimately,
-   reduced learning outcomes [1, 7]. This can manifest as a decline in
+   reduced learning outcomes [1, 5]. This can manifest as a decline in
    performance over time, particularly in self-paced or asynchronous courses.
 
 2. ## **Decreased Motivation and Satisfaction:**  
 
    A lack of engagement often correlates with diminished student motivation and
-   overall satisfaction with the learning experience [7]. Students may feel
+   overall satisfaction with the learning experience [5]. Students may feel
    disconnected from the course and their peers, leading to a loss of interest
    and a perception that the online format is less effective or fulfilling than
    traditional learning [3].
@@ -36,15 +36,15 @@ several key areas where disengagement manifests its detrimental effects
    can lead to feelings of social isolation. Disengaged students often struggle
    to connect with peers and instructors, missing out on collaborative learning
    opportunities and the sense of community that supports persistence and deeper
-   learning [1, 3]. This can be a significant source of stress [10].
+   learning [1, 3]. This can be a significant source of stress [6].
 
 5. ## **Negative Emotional and Mental Health Implications:**  
 
    The challenges associated with online learning, including disengagement, can
    contribute to increased stress levels and negative emotional states. Students
    may find it difficult to manage the pace of coursework and feel overwhelmed,
-   impacting their mental well-being [1, 10]. Some studies indicate a decline in
-   student motivation and engagement since the shift to more online learning [5].
+   impacting their mental well-being [1, 6]. Some studies indicate a decline in
+   student motivation and engagement since the shift to more online learning [4].
 
 ### In summary
 
@@ -68,13 +68,13 @@ Student Attitudes and Experiences. *Frontiers in Education*, 7, 851019.
 performance and engagement. *Education and Information Technologies*.  
 [https://link.springer.com/article/10.1007/s44217-024-00253-0]
 
-[5] EdWeek Research Center. (2020, November).
+[4] EdWeek Research Center. (2020, November).
 *Survey: Teachers Say Student Motivation and Engagement Have Declined Since Pandemic*.
 [https://www.nasbe.org/getting-students-engaged-in-learning/]
 
-[7] Bergdahl, N. (2022). (PDF) Engagement and disengagement in online learning.
+[5] Bergdahl, N. (2022). (PDF) Engagement and disengagement in online learning.
 *ResearchGate*.
 [https://www.researchgate.net/publication/361181458_Engagement_and_disengagement_in_online_learning]
 
-[10] IDRA. (n.d.). *Mental Health Implications of Virtual Learning on Student Engagement*.
+[6] IDRA. (n.d.). *Mental Health Implications of Virtual Learning on Student Engagement*.
 [https://www.idra.org/resource-center/mental-health-implications-of-virtual-learning-on-student-engagement/]
