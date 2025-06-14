@@ -42,7 +42,8 @@ flexibility, and accountability allow us to grow together through this project.
 
 ## ✏️ Our Group Name
 
-**To be Announced Later** 🎵⚛️  
+**The Animus⚛️**= mind, spirit, soul — ties perfectly to insight
+identity, and the work we’re doing  
 
 ---
 
