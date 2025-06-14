@@ -84,10 +84,14 @@ of trust and enhance the overall educational experience.
 
 ## References
 
-1. **On Students' Willingness to Use Online Learning: A Privacy Calculus Theory Approach**  
+1. **On Students' Willingness to Use Online Learning:
+    A Privacy Calculus Theory Approach**  
    - *Publication:* Frontiers in Psychology, 2022  
-   - *Link:* [Frontiers in Psychology Article](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.880261/full)
+   - *Link:*
+     [Frontiers in Psychology Article](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.880261/full)
 
-2. **Aware, but Don't Really Care: Student Perspectives on Privacy and Data Collection in Online Courses**  
-   - *Link:* [ERIC Full Text PDF](https://files.eric.ed.gov/fulltext/EJ1247149.pdf)  
-   - *Alternate Link:* [DOAJ Journal Article](https://doaj.org/article/4de5e21e31bb43aea63017f82e8b150d)
+3. **Aware, but Don't Really Care: Student Perspectives
+    on Privacy and Data Collection in Online Courses**  
+   - *Link:*
+    [ERIC Full Text PDF](https://files.eric.ed.gov/fulltext/EJ1247149.pdf)  
+  
