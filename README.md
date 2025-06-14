@@ -6,14 +6,15 @@ Welcome to our MIT Emerging Talent Collaborative Data Science Project repository
 
 This project explores how data science, collaboration, and domain expertise
 intersect to solve real-world problems. We are currently
-in **Milestone 0: Cross-Cultural Collaboration**, focused on building a solid
-foundation for effective teamwork.
+in **Milestone 1: Problem Identification**, focused on making an initial domain study
+and framing an actionable research question in our project domain,
+and within our groups’ constraints.
 
 ---
 
 ## 👋 Meet the Team
 
-We are Group 06 from the 2025 MIT Emerging Talent program. Our team brings
+We are **The Animus⚛️** from the 2025 MIT Emerging Talent program. Our team brings
 together diverse perspectives, technical backgrounds, and cultural experiences.
 Through this project, we hope to:
 
@@ -29,10 +30,10 @@ Our domain of interest will be defined in Milestone 1.
 ## 🔍 Project Overview
 
 - **Track:** Collaborative Data Science Project (CDSP)
-- **Team:** Group 06
-- **Domain of Interest:** _To be defined in Milestone 1_
+- **Team:** The Animus⚛️
+- **Domain of Interest:** Education
 - **Timeline:** May–August 2025
-- **Status:** 🚧 In progress (Milestone 0)
+- **Status:** 🚧 In progress (Milestone 1)
 
 ---
 
@@ -61,7 +62,7 @@ Our domain of interest will be defined in Milestone 1.
 - 🔹 [Communication Plan](collaboration/communication.md)
 - 🔹 [Constraints](collaboration/constraints.md)
 - 🔹 [Learning Goals](collaboration/learning_goals.md)
-- 🔹 [Retrospective (Milestone 0)](collaboration/retrospective.md)
+- 🔹 [Retrospective (Milestone 1)](collaboration/retrospectives)
 
 ---
 
@@ -69,8 +70,8 @@ Our domain of interest will be defined in Milestone 1.
 
 | Milestone | Focus                        | Status        | Due Date   |
 |----------|------------------------------|---------------|------------|
-| 0        | Cross-Cultural Collaboration | 🟡 In Progress | June 2     |
-| 1        | Problem Identification        | ⏳ Upcoming    | June 16    |
+| 0        | Cross-Cultural Collaboration | 🟢 Done | June 2     |
+| 1        | Problem Identification        | 🟡 In Progress    | June 16    |
 | 2        | Data Collection               | ⏳ Upcoming    | June 30    |
 | 3        | Data Analysis                 | ⏳ Upcoming    | July 21    |
 | 4        | Communicating Results         | ⏳ Upcoming    | August 11  |
@@ -84,22 +85,6 @@ Our domain of interest will be defined in Milestone 1.
 git clone https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo.git
 cd ET6-CDSP-group-06-repo
 ```
-
-## 🛠️ Development Workflow
-
-Create a new branch for your solution:
-
-```bash
-git checkout -b feature/challenge-name
-```
-
-- Implement your solution in the solutions directory.  
-- Add tests in the tests directory.  
-- Submit a pull request for review.  
-- Address review feedback.  
-- Merge after approval.
-- Read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-- CI checks must pass before merging to `main`.
 
 ---
 
