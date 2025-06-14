@@ -1,4 +1,4 @@
-# Data Privacy in Educational Data
+# Data Privacy In Educational Data
 
 This file summarizes key findings from research on data privacy in online learning environments.
 It draws from two influential studies:
@@ -21,7 +21,7 @@ It draws from two influential studies:
   Engagement rises when students perceive that the benefits of
    online learning clearly outweigh the risks.
 
-### The Role of Trust
+### The Role Of Trust
 - **Importance:**  
   - **Transparent Data Protection:** Clear and robust privacy protocols help diminish concerns.  
   -  **Effective Communication:** Explaining data usage
@@ -41,7 +41,7 @@ It draws from two influential studies:
 
 ---
 
-## Practical Implications for Online Learning Platforms
+## Practical Implications For Online Learning Platforms
 
 - **Strengthen Privacy Protections:**  
   - Implement robust safeguards and maintain up-to-date, transparent privacy policies.
@@ -60,7 +60,7 @@ It draws from two influential studies:
 To maximize student engagement, online learning platforms must strike a balance between robust privacy measures
 and transparent communication of benefits. By leveraging insights from the privacy calculus
 framework and addressing the privacy paradox, we can foster an environment
-t of trust and enhance the overall educational experience.
+of trust and enhance the overall educational experience.
 
 ---
 
