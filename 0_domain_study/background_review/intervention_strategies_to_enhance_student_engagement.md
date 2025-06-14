@@ -88,8 +88,8 @@ improve participation and academic performance.
 
 1. [Borup, J., West, R. E., Thomas, R., & Graham, C. R. (2015). *The
 adolescent community of engagement framework*](http://www.editlib.org/p/112371)
-2. [Castillo-Montoya, M. (2016). *Deepening understanding of prior knowledge.*
-](https://doi.org/10.1080/13562517.2016.1273208)
+2. [Castillo-Montoya, M. (2016). *Deepening understanding of
+prior knowledge.*](https://doi.org/10.1080/13562517.2016.1273208)
 3. [Darby, F., & Lang, J. M. (2019). *Small Teaching Online: Applying Learning
 Science in Online
 Classes*](https://www.wiley.com/en-us/Small+Teaching+Online%3A+Applying+Learning+Science+in+Online+Classes-p-9781119619093)
