@@ -27,22 +27,27 @@ It draws from two influential studies:
 ### The Role of Trust
 
 - **Importance:**  
-  - **Transparent Data Protection:** Clear and robust privacy protocols help diminish concerns.  
+  - **Transparent Data Protection:** Clear and robust
+     privacy protocols help diminish concerns.  
   -  **Effective Communication:** Explaining data usage
     (improving learning analytics and course design) builds trust.
   
 - **Impact:**
   
-  Trust reduces the negative perception of risks and encourages higher platform engagement.
+  Trust reduces the negative perception of
+   risks and encourages higher platform engagement.
 
 ### The Privacy Paradox
 
-- **Observation:**  
+- **Observation:**
+  
   Despite expressing concerns about data privacy,
    many students continue to use online learning platforms.
   
-- **Explanation:**  
-  The practical benefits and established trust often outweigh stated privacy worries,
+- **Explanation:**
+  
+  The practical benefits and established trust
+  often outweigh stated privacy worries,
    leading to steady engagement.
 
 ---
@@ -50,23 +55,29 @@ It draws from two influential studies:
 ## Practical Implications for Online Learning Platforms
 
 - **Strengthen Privacy Protections:**  
-  - Implement robust safeguards and maintain up-to-date, transparent privacy policies.
+  - Implement robust safeguards and maintain
+     up-to-date, transparent privacy policies.
   
 - **Develop a Clear Communication Strategy:**  
-  - Regularly inform users about data protection measures and how collected data improves
+  - Regularly inform users about data protection
+     measures and how collected data improves
     learning experiences.
   
 - **Utilize Feedback Mechanisms:**  
   - Integrate tools such as Likert-scale surveys to assess student perception.
-    Use ongoing feedback to iteratively enhance both technical privacy measures and user communication.
+    Use ongoing feedback to iteratively enhance both
+     technical privacy measures and user communication.
 
 ---
 
 ## Conclusion
 
-To maximize student engagement, online learning platforms must strike a balance between robust privacy measures
-and transparent communication of benefits. By leveraging insights from the privacy calculus
-framework and addressing the privacy paradox, we can foster an environment
+To maximize student engagement, online learning
+platforms must strike a balance between robust privacy measures
+and transparent communication of benefits.
+By leveraging insights from the privacy calculus
+framework and addressing the privacy paradox,
+we can foster an environment
 of trust and enhance the overall educational experience.
 
 ---
