@@ -1,6 +1,7 @@
 # Data Privacy in Educational Data
 
-This file summarizes key findings from research on data privacy in online learning environments.
+This file summarizes key findings from research
+on data privacy in online learning environments.
 It draws from two influential studies:
 
 - **On Students' Willingness to Use Online Learning:
@@ -33,22 +34,19 @@ It draws from two influential studies:
     (improving learning analytics and course design) builds trust.
   
 - **Impact:**
-  
   Trust reduces the negative perception of
-   risks and encourages higher platform engagement.
+  risks and encourages higher platform engagement.
 
 ### The Privacy Paradox
 
 - **Observation:**
-  
   Despite expressing concerns about data privacy,
-   many students continue to use online learning platforms.
+  many students continue to use online learning platforms.
   
 - **Explanation:**
-  
   The practical benefits and established trust
   often outweigh stated privacy worries,
-   leading to steady engagement.
+  leading to steady engagement.
 
 ---
 
@@ -94,4 +92,3 @@ of trust and enhance the overall educational experience.
     on Privacy and Data Collection in Online Courses**  
    - *Link:*
     [ERIC Full Text PDF](https://files.eric.ed.gov/fulltext/EJ1247149.pdf)  
-  
