@@ -29,7 +29,7 @@ It draws from two influential studies:
 
 - **Importance:**  
   - **Transparent Data Protection:** Clear and robust
-    privacy protocols help diminish concerns.    
+    privacy protocols help diminish concerns.
   - **Effective Communication:** Explaining data usage
     (improving learning analytics and course design) builds trust.
   
