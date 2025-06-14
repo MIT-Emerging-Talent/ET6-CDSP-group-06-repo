@@ -1,17 +1,20 @@
-# Data Privacy In Educational Data
+# Data Privacy in Educational Data
 
 This file summarizes key findings from research on data privacy in online learning environments.
 It draws from two influential studies:
 
-- **On Students' Willingness to Use Online Learning: A Privacy Calculus Theory Approach**  
-- **Aware, but Don't Really Care: Student Perspectives on Privacy and
-    Data Collection in Online Courses**
+- **On Students' Willingness to Use Online Learning:
+   A Privacy Calculus Theory Approach**  
+- **Aware, but Don't Really Care: Student
+   Perspectives on Privacy and
+   Data Collection in Online Courses**
 
 ---
 
 ## Overview
 
 ### Privacy Calculus Theory
+
 - **Definition:**  
   Students evaluate online learning by weighing tangible benefits
   (e.g., personalized instruction, convenience, cost/time savings)
@@ -21,16 +24,19 @@ It draws from two influential studies:
   Engagement rises when students perceive that the benefits of
    online learning clearly outweigh the risks.
 
-### The Role Of Trust
+### The Role of Trust
+
 - **Importance:**  
   - **Transparent Data Protection:** Clear and robust privacy protocols help diminish concerns.  
   -  **Effective Communication:** Explaining data usage
     (improving learning analytics and course design) builds trust.
   
-- **Impact:**  
+- **Impact:**
+  
   Trust reduces the negative perception of risks and encourages higher platform engagement.
 
 ### The Privacy Paradox
+
 - **Observation:**  
   Despite expressing concerns about data privacy,
    many students continue to use online learning platforms.
@@ -41,7 +47,7 @@ It draws from two influential studies:
 
 ---
 
-## Practical Implications For Online Learning Platforms
+## Practical Implications for Online Learning Platforms
 
 - **Strengthen Privacy Protections:**  
   - Implement robust safeguards and maintain up-to-date, transparent privacy policies.
@@ -55,6 +61,7 @@ It draws from two influential studies:
     Use ongoing feedback to iteratively enhance both technical privacy measures and user communication.
 
 ---
+
 ## Conclusion
 
 To maximize student engagement, online learning platforms must strike a balance between robust privacy measures
