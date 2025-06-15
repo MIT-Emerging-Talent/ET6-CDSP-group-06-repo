@@ -100,11 +100,15 @@ data collection (LMS data) and analysis (predictive modeling, correlation analys
 in subsequent milestones.
 
 This folder contains documentation and research for our Milestone 1 domain study:
-.
-├── README.md
-├── data_privacy_impact.md
-├── guide.md
-├── impact_of_disengagement.md
-├── intervention_strategies_to_enhance_student_engagement.md
-├── systems_thinking_analysis.md
-└── theories_of_student_engagement.md
+# 📂 Project File Overview
+
+| File Name                                                  | Description                                |
+|------------------------------------------------------------|--------------------------------------------|
+| `README.md`                                                | Project overview and basic instructions    |
+| `data_privacy_impact.md`                                   | Analysis of data privacy implications      |
+| `guide.md`                                                 | Step-by-step guide for contributors/users  |
+| `impact_of_disengagement.md`                               | Effects of student disengagement           |
+| `intervention_strategies_to_enhance_student_engagement.md` | Suggested engagement intervention methods  |
+| `systems_thinking_analysis.md`                             | Systems thinking applied to education      |
+| `theories_of_student_engagement.md`                        | Academic theories behind student engagement|
+
