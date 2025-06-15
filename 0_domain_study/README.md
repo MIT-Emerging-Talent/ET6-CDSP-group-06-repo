@@ -99,12 +99,14 @@ success in online learning environments. It also provides a clear direction for
 data collection (LMS data) and analysis (predictive modeling, correlation analysis)
 in subsequent milestones.
 
-This folder contains documentation and research for our Milestone 1 domain study:
-.
-├── README.md
-├── data_privacy_impact.md
-├── guide.md
-├── impact_of_disengagement.md
-├── intervention_strategies_to_enhance_student_engagement.md
-├── systems_thinking_analysis.md
-└── theories_of_student_engagement.md
+## 📂 Project File Overview
+
+| File Name    |
+|----------|
+| `README.md`|
+| `data_privacy_impact.md`|
+| `guide.md`|
+| `impact_of_disengagement.md`|
+| `intervention_strategies_to_enhance_student_engagement.md`|
+| `systems_thinking_analysis.md`|
+| `theories_of_student_engagement.md`|
