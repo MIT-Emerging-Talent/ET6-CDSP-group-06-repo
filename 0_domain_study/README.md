@@ -123,3 +123,5 @@ in subsequent milestones.
 | `4_intervention_strategies.md`| Engagement strategies| [Caesar](https://github.com/CaesarGhazi)|
 | `5_data_privacy_impact.md`   | Data privacy analysis  | [Mohamed](https://github.com/MohammadRAlSalloum) |
 |`systems_thinking_analysis.md`| Systems thinking analysis | Whole Team |
+|`stakeholders.md`|Stakeholders Full analysis | Whole Team |
+
