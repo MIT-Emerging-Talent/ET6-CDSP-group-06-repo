@@ -2,8 +2,7 @@
 
 Measuring student engagement in online learning environments is crucial for
 understanding learning effectiveness, identifying at-risk students, and designing
-targeted interventions. Engagement is a multifaceted construct,
-often categorized
+targeted interventions. Engagement is a multifaceted construct, often categorized
 into behavioral, emotional, and cognitive dimensions, each with its own set of
 measurable indicators. Learning Management Systems (LMS) and other educational
 technologies provide a rich source of data for tracking these metrics.
