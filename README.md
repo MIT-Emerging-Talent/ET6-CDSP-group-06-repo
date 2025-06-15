@@ -37,6 +37,65 @@ Our domain of interest will be defined in Milestone 1.
 
 ---
 
+## 🎯 Milestone 1: Problem Identification
+
+### Problem Statement
+
+In the era of increasingly prevalent online learning, maintaining student
+engagement has become a significant challenge. Many students, particularly in
+self-paced or asynchronous online courses, struggle with motivation, timely
+completion of assignments, and active participation. This leads to higher
+dropout rates and reduced learning outcomes. This problem is exacerbated by the
+lack of immediate feedback and personalized interaction often present in
+traditional classroom settings. From a personal perspective, many of us have
+experienced the isolation and difficulty in staying focused when learning
+remotely, especially when faced with distractions or a lack of direct
+accountability.
+
+### Group Understanding (Systems Thinking)
+
+Applying systems thinking to student engagement in online learning reveals a
+complex interplay of factors:
+
+- **Events:** Missed deadlines, low forum participation, minimal login activity.
+- **Patterns:** Decline in activity after initial weeks, higher disengagement in
+  self-paced courses.
+- **Structures:** Course design flaws, platform limitations, instructor pedagogy,
+  socio-economic factors.
+- **Mental Models:** Student beliefs about self-discipline, instructor
+  assumptions about autonomy.
+
+### Actionable Research Question
+
+#### Research Question
+
+How do specific student interaction patterns with online course materials and
+discussion forums predict academic performance and course completion rates in
+online learning environments, and what interventions can be designed to improve
+these metrics?
+
+This question is:
+
+- **Specific:** Focuses on interaction patterns and measurable outcomes.
+- **Achievable:** Uses accessible LMS data (logins, forum activity, grades).
+- **Actionable:** Findings can inform interventions like automated nudges or
+  course redesigns.
+
+### Key Stakeholders  
+
+- **Students**: Primary users; their engagement behaviors directly impact
+  outcomes.
+- **Instructors**: Design courses and interventions (e.g., forum prompts,
+  feedback).
+- **LMS Providers**: Can implement platform changes (e.g., gamification,
+  analytics).
+- **Institutions**: Set policies (e.g., enrollment caps, support services).
+- **Policymakers**: Fund infrastructure (e.g., broadband access for
+  underserved students).
+For detailed stakeholder analysis, see: [Stakeholder Breakdown](0_domain_study/stakeholders.md).
+
+---
+
 ## 📁 Repository Structure
 
 ```bash
