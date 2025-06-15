@@ -101,12 +101,13 @@ in subsequent milestones.
 
 ## 📂 Project File Overview
 
-| File Name    |
-|----------|
-| `README.md`|
-| `data_privacy_impact.md`|
-| `guide.md`|
-| `impact_of_disengagement.md`|
-| `intervention_strategies_to_enhance_student_engagement.md`|
-| `systems_thinking_analysis.md`|
-| `theories_of_student_engagement.md`|
+| File Name | Description | Created By |
+|-----|------|--|
+| `README.md` | Project overview | Whole Team |
+| `0_online_platforms.md`    | Online platforms summary  | [Terry](https://github.com/terryekoe) |
+| `1_theories_of_student_engagement.md`| Engagement theories | [Maria](https://github.com/MaRia19280) |
+| `2_Metrics_and_Indicators_of_Engagement.md` | Engagement metrics | [Tomas](https://github.com/Sufi-to)|
+| `3_impact_of_disengagement.md`  | Disengagement impact   | [Fahed](https://github.com/RandomProjects-db) |
+| `4_intervention_strategies.md`| Engagement strategies| [Caesar](https://github.com/CaesarGhazi)|
+| `5_data_privacy_impact.md`   | Data privacy analysis  | [Mohamed](https://github.com/MohammadRAlSalloum) |
+|`systems_thinking_analysis.md`| Systems thinking analysis | Whole Team |
