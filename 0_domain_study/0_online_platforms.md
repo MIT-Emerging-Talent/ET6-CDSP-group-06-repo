@@ -2,8 +2,6 @@
 
 Online learning has become a transformative force in global education, offering flexibility, accessibility, and a wide range of learning opportunities to individuals across the world. The development and implementation of online learning platforms and supporting technologies have played a critical role in enabling remote and self-paced education in formal, informal, and corporate settings.
 
----
-
 ## 1. Learning Management Systems (LMS)
 
 Learning Management Systems (LMS) are centralized software platforms used to deliver, track, and manage educational courses and training programs. They provide tools for content delivery, assessments, grading, communication, and user management.
@@ -16,8 +14,6 @@ Learning Management Systems (LMS) are centralized software platforms used to del
   🔗 [https://www.instructure.com/canvas](https://www.instructure.com/canvas)
 - **Blackboard**: A commercial LMS with integrated virtual classrooms and analytics.  
   🔗 [https://www.blackboard.com](https://www.blackboard.com)
-
----
 
 ## 2. Massive Open Online Courses (MOOCs)
 
@@ -32,8 +28,6 @@ MOOCs offer large-scale access to free or affordable courses taught by universit
 - **Udemy**: Marketplace for instructors to offer their own courses; strong in vocational and tech skills.  
     [https://www.udemy.com](https://www.udemy.com)
 
----
-
 ## 3. Virtual Classroom Technologies
 
 Virtual classrooms simulate physical learning environments using audio, video, whiteboards, and screen sharing to facilitate real-time instruction.
@@ -47,8 +41,6 @@ Virtual classrooms simulate physical learning environments using audio, video, w
 - **Google Classroom**: Lightweight tool for organizing classes, assignments, and communication.  
     [https://classroom.google.com](https://classroom.google.com)
 
----
-
 ## 4. Learning Experience Platforms (LXPs)
 
 LXPs focus on personalized learning and use AI to recommend content, track learning paths, and improve learner engagement.
@@ -61,8 +53,6 @@ LXPs focus on personalized learning and use AI to recommend content, track learn
   [https://www.edcast.com](https://www.edcast.com)
 - **Docebo**: Combines LXP and LMS functionalities with strong analytics.  
   [https://www.docebo.com](https://www.docebo.com)
-
----
 
 ## 5. Supporting Technologies
 
@@ -78,8 +68,6 @@ LXPs focus on personalized learning and use AI to recommend content, track learn
 - Immersive simulations for experiential learning.
 - Tools: Google Expeditions (discontinued, but legacy), Labster (science VR labs)
 
----
-
 ## Comparison Table
 
 | Platform Type     | Target Users      | Notable Platforms      | Key Technologies             |
@@ -89,10 +77,7 @@ LXPs focus on personalized learning and use AI to recommend content, track learn
 | Virtual Classroom | All levels        | Zoom, Teams, Classroom | Live Video, Chat, Whiteboard |
 | LXP               | Enterprises       | Degreed, EdCast        | AI, Content Aggregation      |
 
-
 The evolution of online learning platforms and supporting technologies has made education more personalized, accessible, and scalable. Whether in academic institutions, corporate training, or personal development, there is a solution tailored for every type of learner.
-
----
 
 # References
 
