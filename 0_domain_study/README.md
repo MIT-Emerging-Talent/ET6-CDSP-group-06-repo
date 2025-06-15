@@ -99,6 +99,18 @@ success in online learning environments. It also provides a clear direction for
 data collection (LMS data) and analysis (predictive modeling, correlation analysis)
 in subsequent milestones.
 
+### Key Stakeholders  
+
+* **Students**: Primary users; their engagement behaviors directly impact
+  outcomes.
+* **Instructors**: Design courses and interventions (e.g., forum prompts,
+  feedback).
+* **LMS Providers**: Can implement platform changes (e.g., gamification,
+  analytics).
+* **Institutions**: Set policies (e.g., enrollment caps, support services).
+* **Policymakers**: Fund infrastructure (e.g., broadband access for
+  underserved students).
+
 ## 📂 Project File Overview
 
 | File Name | Description | Created By |

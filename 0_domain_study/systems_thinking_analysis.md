@@ -85,3 +85,49 @@ team to move beyond simply observing disengagement to identifying leverage
 points for intervention. For instance, addressing a lack of interactive course
 design (structure) might be more impactful than solely focusing on individual
 student motivation (event/pattern).
+
+```mermaid
+graph TD
+    %% Top Node
+    A[Student Disengagement]
+
+    %% Events
+    B[Observable Symptoms - Missed Deadlines, Low Participation, etc.]
+    A --> B
+
+    %% Patterns
+    C[Emerging Patterns - Activity Drops, Group Disparities]
+    B --> C
+    C --> A
+
+    %% Structures
+    D[Course Design Issues]
+    E[Platform Limitations]
+    F[Instructor Practices]
+    G[Socio-economic Challenges]
+    H[Institutional Policies]
+
+    D --> A
+    E --> A
+    F --> A
+    G --> A
+    H --> A
+
+    %% Mental Models
+    I[Mental Models]
+    I --> D
+    I --> F
+    I --> H
+    I --> A
+
+    %% Feedback Loop
+    J[Lower Grades]
+    B --> J
+    J -->|Demotivation| A
+
+    %% Style emphasis
+    style D stroke:#f06,stroke-width:2px
+    style F stroke:#f06,stroke-width:2px
+    style H stroke:#f06,stroke-width:2px
+
+```
