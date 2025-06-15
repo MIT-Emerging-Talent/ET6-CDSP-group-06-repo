@@ -104,10 +104,10 @@ in subsequent milestones.
 | File Name | Description | Created By |
 |-----|------|--|
 | `README.md` | Project overview | Whole Team |
-| `0_online_platforms.md`    | Online platforms summary  | Terry |
-| `1_theories_of_student_engagement.md`| Engagement theories | Maria |
-| `2_Metrics_and_Indicators_of_Engagement.md` | Engagement metrics | Tomas|
-| `3_impact_of_disengagement.md`  | Disengagement impact   | Fahed |
-| `4_intervention_strategies.md`| Engagement strategies| Caesar|
-| `5_data_privacy_impact.md`   | Data privacy analysis  | Mohammad |
+| `0_online_platforms.md`    | Online platforms summary  | [Terry](https://github.com/terryekoe) |
+| `1_theories_of_student_engagement.md`| Engagement theories | [Maria](https://github.com/MaRia19280) |
+| `2_Metrics_and_Indicators_of_Engagement.md` | Engagement metrics | [Tomas](https://github.com/Sufi-to)|
+| `3_impact_of_disengagement.md`  | Disengagement impact   | [Fahed](https://github.com/RandomProjects-db) |
+| `4_intervention_strategies.md`| Engagement strategies| [Caesar](https://github.com/CaesarGhazi)|
+| `5_data_privacy_impact.md`   | Data privacy analysis  | [Mohamed](https://github.com/MohammadRAlSalloum) |
 |`systems_thinking_analysis.md`| Systems thinking analysis | Whole Team |
