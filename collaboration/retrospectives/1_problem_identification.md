@@ -16,7 +16,7 @@ impact.
 ## Strategy vs. Board Reflection
 
 * **What parts of our plan went as expected?**
-  * Our **structured analysis** of the syllabus and transcripts clarified
+  * Our **structured analysis** of the syllabus clarified
     Milestone 1 expectations.
   * Dividing **domain research tasks** among team members enabled broad and
     efficient coverage.
