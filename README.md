@@ -112,27 +112,13 @@ data modeling process—from raw observations to structured features. It directl
 supports our actionable research question by providing the necessary data on
 student interaction patterns, academic performance, and course completion rates.
 
-- `SED_Student_log.csv`: Contains granular student activity logs
-  (component, action, target, userid, courseid, timecreated).
-- `Student_grade_detailed.csv`: Provides detailed grade information per student
-  per course.
+**Files Included in this Folder:**
 
-**Justification for Selection:**
-Below are the data dictionaries for the files in this dataset, outlining column
-names, data types, unique values, and missing values. These serve as initial
-documentation for understanding the dataset.
-
-| component | object | 36 | 0 | The Moodle component involved in the activity
-  (e.g., core, mod_resource, mod_forum). |
-| action | object | 37 | 0 | The specific action performed by the user
-  (e.g., viewed, completed, created). |
-| target | object | 74 | 0 | The specific item or context of the action
-  (e.g., course, course_module, forum). |
-
+- `SED_Student_log.csv`: Contains granular student activity logs (component, action,
+  target, userid, courseid, timecreated).
 - `Student_activity_summary.csv`: Provides aggregated activity metrics per student.
 - `Student_grade_aggregated.csv`: Contains aggregated grade information per student.
 - `Student_grade_detailed.csv`: Provides detailed grade information per student
-  per course.
   per course.
 
 ### Data Dictionaries
