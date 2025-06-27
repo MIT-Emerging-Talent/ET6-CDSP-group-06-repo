@@ -94,7 +94,7 @@ def generate_data_dictionary(df):
 
 # Load the datasets
 try:
-    log_df = pd.read_csv("1_datasets/raw_data/Student_log/SED_Student_log.csv")
+    log_df = pd.read_csv("1_datasets/raw_data/student_log/SED_Student_log.csv")
     activity_summary_df = pd.read_csv(
         "1_datasets/raw_data/Student_activity_summary.csv"
     )
