@@ -21,14 +21,6 @@ learning environments through data-driven insights and predictive modeling.
 Each milestone represents a crucial phase in our data science workflow. Click on
 any milestone below to explore detailed documentation, processes, and outcomes:
 
-| Milestone | Phase | Status | Key Deliverables |
-|-----------|-------|---------|------------------|
-| 🎯 [**Milestone 1**](milestones/milestone_1/) | Problem Identification & Domain Analysis | ✅ Complete | Research question formulation, stakeholder analysis, domain study |
-| 📊 [**Milestone 2**](milestones/milestone_2/) | Data Collection & Preparation | ✅ Complete | Dataset selection, cleaning, preprocessing, documentation |
-| 🔍 [**Milestone 3**](milestones/milestone_3/) | Data Exploration & Analysis | 🚧 Pending | Exploratory data analysis, feature engineering, insights |
-| 🤖 [**Milestone 4**](milestones/milestone_4/) | Model Development & Evaluation | ⏳ Upcoming | Machine learning models, validation, performance metrics |
-| 📢 [**Milestone 5**](milestones/milestone_5/) | Communication & Presentation | ⏳ Upcoming | Final presentation, stakeholder communication, recommendations |
-
 ### 📁 What You'll Find in Each Milestone
 
 Each milestone folder contains:
