@@ -33,7 +33,7 @@ Our domain of interest will be defined in Milestone 1.
 - **Team:** The Animus⚛️
 - **Domain of Interest:** Education
 - **Timeline:** May–August 2025
-- **Status:** 🚧 In progress (Milestone 1)
+- **Status:** 🚧 Exploring (Milestone 3)
 
 ---
 
@@ -247,7 +247,7 @@ Below are the data dictionaries for the files in this dataset, outlining column
 |----------|------------------------------|---------------|------------|
 | 0        | Cross-Cultural Collaboration | 🟢 Done | June 2     |
 | 1        | Problem Identification        | 🟢 Done    | June 16    |
-| 2        | Data Collection               | 🟡 In Progress    | June 30    |
+| 2        | Data Collection               | 🟢 Done   | June 30    |
 | 3        | Data Analysis                 | ⏳ Upcoming    | July 21    |
 | 4        | Communicating Results         | ⏳ Upcoming    | August 11  |
 | 5        | Final Presentation            | ⏳ Upcoming    | August 25  |
