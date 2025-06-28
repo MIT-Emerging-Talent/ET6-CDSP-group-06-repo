@@ -29,7 +29,7 @@ Our actionable research question guided our data selection:
 
 We followed a structured approach for evaluating and selecting datasets, as
 detailed in
-[`Structured Approach for Evaluating and Selecting Datasets (Milestone 2).pdf`](../1_datasets/milestone2_data_selection_guide.pdf).
+[`Structured Approach for Evaluating and Selecting Datasets (Milestone 2).pdf`](../../notes/milestones/milestone_2/Structured%20Approach%20for%20Evaluating%20and%20Selecting%20Datasets%20(Milestone%202).pdf).
 This involved:
 
 * **Initial Screening:** Reviewing promising publicly available datasets
@@ -46,7 +46,7 @@ as our primary dataset. This dataset, comprising `SED_Student_log.csv`,
 `Student_grade_detailed.csv`, offers a rich combination of granular activity logs
 and student performance metrics. Our detailed justification for this selection is
 documented in
-[`milestone2_data_selection_justification.md`](../1_datasets/milestone2_data_selection_justification.md).
+[`milestone2_data_selection_justification.md`](../../1_datasets/milestone2_data_selection_justification.md).
 
 **Location of Raw Data:** The raw SED dataset files are stored in the
 `1_datasets/raw_data/` subfolder.
@@ -56,7 +56,7 @@ documented in
 This phase involved transforming the raw data into a clean, integrated, and
 analysis-ready format. The entire process is primarily encapsulated in the Python
 script
-[`data_cleaning_preprocessing.py`](../2_data_preparation/data_cleaning_preprocessing.py).
+[`data_cleaning_preprocessing.py`](../../2_data_preparation/data_cleaning_preprocessing.py).
 
 **Initial Data Exploration and Documentation (`explore_sed_data.py`):**
 
@@ -104,7 +104,7 @@ files. This script:
 
 **Detailed Documentation:** A comprehensive explanation of these steps,
 including the rationale and specific transformations, is provided in
-[`data_processing_report.md`](../2_data_preparation/data_processing_report.md).
+[`data_processing_report.md`](../../2_data_preparation/data_processing_report.md).
 
 **Location of Cleaned Data:** The final processed and cleaned dataset,
 `cleaned_sed_dataset.csv`, is saved in the
@@ -116,11 +116,11 @@ Thorough documentation is crucial for reproducibility and understanding. We have
 created:
 
 * **Data Dictionaries:** Initial data dictionaries for all raw SED files are
-  included in the [`README.md`](../1_datasets/README.md) of the `1_datasets`
-  folder and the [`README.md`](../2_data_preparation/README.md) of the
+  included in the [`README.md`](../../1_datasets/README.md) of the `1_datasets`
+  folder and the [`README.md`](../../2_data_preparation/README.md) of the
   `2_data_preparation` folder.
 * **Data Processing Report:** As mentioned,
-  [`data_processing_report.md`](../2_data_preparation/data_processing_report.md)
+  [`data_processing_report.md`](../../2_data_preparation/data_processing_report.md)
   details the cleaning and feature engineering process.
 
 ## 5. Retrospective and Learning
@@ -128,17 +128,17 @@ created:
 At the conclusion of Milestone 2, our team conducted a retrospective to reflect
 on our processes, successes, and areas for improvement. This reflection is
 documented in
-[`2_data_collection.md`](../collaboration/retrospectives/2_data_collection.md).
+[`2_data_collection.md`](../../collaboration/retrospectives/2_data_collection.md).
 
 ## 6. Key Concepts and Guides
 
 Throughout Milestone 2, we referred to several guiding documents:
 
-* [`Key Concepts from “Modeling the World Through Data” Workshop (June 17).pdf`](./milestones/milestone2/Key%20Concepts%20from%20%E2%80%9CModeling%20the%20World%20Through%20Data%E2%80%9D%20Workshop%20(June%2017).pdf):
+* [`Key Concepts from “Modeling the World Through Data” Workshop (June 17).pdf`](../../notes/milestones/milestone_2/Key%20Concepts%20from%20%E2%80%9CModeling%20the%20World%20Through%20Data%E2%80%9D%20Workshop%20(June%2017).pdf):
   Outlines key concepts from the "Modeling the World Through Data" workshop.
-* [`milestone2_concepts_appendix.md`](milestone2_concepts_appendix.md): A
-  detailed appendix of terms and methodologies relevant to data collection.
-* [`To-Do List - Milestone 2- Data Collection.pdf`](./milestones/milestone2/To-Do%20List%20-%20Milestone%202-%20Data%20Collection.pdf):
+* [`milestone2_concepts_appendix.md`](../../notes/milestones/milestone_2/milestone2_concepts_appendix.md):
+  A detailed appendix of terms and methodologies relevant to data collection.
+* [`To-Do List - Milestone 2- Data Collection.pdf`](../../notes/milestones/milestone_2/To-Do%20List%20-%20Milestone%202-%20Data%20Collection.pdf):
   Our detailed checklist for Milestone 2 tasks.
 
 ## 7. Next Steps
