@@ -21,8 +21,8 @@ learning environments through data-driven insights and predictive modeling.
 Each milestone represents a crucial phase in our data science workflow. Click on
 any milestone below to explore detailed documentation, processes, and outcomes:
 
-| Milestone | Phase | Status | Key |
-|-----------|-------|---------||------------------|
+| Milestone | Phase | Status |
+|-----------|-------|--------|
 | 🎯 [**Milestone 1**](milestones/milestone_1/) | Domain Analysis | ✅ Complete |
 | 📊 [**Milestone 2**](milestones/milestone_2/) | Data Collection | ✅ Complete |
 | 🔍 [**Milestone 3**](milestones/milestone_3/) | Data Exploration | 🚧 Pending |
