@@ -1,31 +1,32 @@
-
-<!-- this template is for inspiration, feel free to change it however you like! -->
-
-# Retrospective
+# Retrospective – Milestone 0: Cross-Cultural Collaboration
 
 ## Stop Doing
 
-- Waiting until the last minute to merge code, this caused avoidable conflicts.
-
-- Using group chats to track tasks instead of a shared task board (led to confusion).
+- Waiting too long to schedule the first meeting because of time-zone
+uncertainty.
+- Assuming everyone had the same expectations for communication frequency
+without confirming.
 
 ## Continue Doing
 
-- Writing post-commit messages to explain major changes in GitHub.
+- Being patient and respectful about different schedules and commitments.
+- Using GitHub and shared docs to keep everyone informed asynchronously.
+- Practicing active listening in meetings.
 
 ## Start Doing
 
-- When a branch has been merged and no longer needed, we should to delete it
-to make everything neat.
-
-- Always update the project board, and review available pull requests.
+- Setting clear agendas before meetings to stay focused.
+- Rotating meeting times to share the burden of time zone differences.
+- Clarifying action items and next steps at the end of each call.
 
 ## Lessons Learned
 
-- Group success depends more on communication than technical skill alone.
-
-- Developed better time management skills by respecting deadlines and the
-schedules of team members.
+- Good communication is more important than perfect English or technical
+knowledge.
+- Acknowledging cultural differences helps avoid misunderstandings.
+- Asynchronous collaboration tools (GitHub Issues, Docs) are essential for
+distributed work.
+- Building trust early makes future collaboration easier.
 
 ---
 
@@ -33,16 +34,21 @@ schedules of team members.
 
 ### What parts of your plan went as expected?
 
+- Created a shared communication plan early.
+- Established clear group norms.
+- Successfully agreed on collaboration tools (GitHub, Telegram,
+Slack/WhatsApp).
+
 ### What parts of your plan did not work out?
 
-### Did you need to add things that weren't in your strategy?
-
-### Or remove extra steps?
+- Initial onboarding was slower than planned.
+- First meetings were a bit unfocused without a shared agenda.
+- Not everyone was clear on their roles until later.
 
 ---
 
-## Individual Rerospectives
+## Individual Retrospectives
 
-### Name
+### Caesar
 
-<!-- reflect on your contributions, challenges and progress in this milestone -->
+Learned that cultural context shapes how people communicate.

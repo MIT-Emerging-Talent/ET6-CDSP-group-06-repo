@@ -196,3 +196,9 @@ As we move into the next phase of data exploration, we carry forward both workin
   tools and hard-won insight. This milestone clarified the value of thorough
     data review and repeatable preprocessing. We are now better prepared to
     generate insights with confidence.
+
+## Individual Retrospectives
+
+### Caesar
+
+having many datasets to choose from just makes everything more difficult.

@@ -85,3 +85,11 @@ impact.
 
 By reflecting on our process with honesty and openness, we aim to enter
 Milestone 2 more focused, aligned, and effective.
+
+## Individual Retrospectives
+
+### Caesar
+
+trying to choose one singular problem to work on is incredibly difficult
+because we're all from different background and we've different interests,
+but we made it work.
