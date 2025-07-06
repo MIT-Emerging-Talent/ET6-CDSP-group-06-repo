@@ -6,9 +6,9 @@ Welcome to our MIT Emerging Talent Collaborative Data Science Project repository
 
 This project explores how data science, collaboration, and domain expertise
 intersect to solve real-world problems. We are currently
-in **Milestone 1: Problem Identification**, focused on making an initial domain study
-and framing an actionable research question in our project domain,
-and within our groups’ constraints.
+in **Milestone 3: Data Exploration and Analysis**, focused on exploring our
+cleaned dataset, performing predictive modeling, and evaluating how student
+engagement patterns relate to academic performance.
 
 ---
 
@@ -212,6 +212,141 @@ Below are the data dictionaries for the files in this dataset, outlining column
    Create a comprehensive data dictionary for the final, cleaned, and integrated
    dataset.
 
+## Milestone 3: Data Exploration and Analysis
+
+We explored and modeled the cleaned Student Engagement Dataset (SED) to address
+our research question about how student interaction patterns predict academic
+performance.
+
+### Non-Technical Explanation of Our Findings
+
+We analyzed data on online student activity to understand whether patterns of
+engagement can help predict academic performance.
+
+#### Key Findings
+
+- Students who log in more frequently, participate in forums, and complete
+assignments tend to achieve higher marks.
+
+- This suggests that consistent, active engagement is linked to better
+academic outcomes in online learning environments.
+
+#### Visual Evidence
+
+#### Scatter Plots of Engagement Features vs. Average Marks
+
+![Scatterplots of Engagement Features](https://github.com/user-attachments/assets/2019a625-9e07-46e8-b9d6-5ce5251be465)
+
+> The scatter plots show positive trends between average marks and:
+>
+> - Days active
+> - Total events
+> - Forum posts
+> - Number of assignments
+
+These relationships suggest that students with more consistent activity tend to
+score higher.
+
+#### Correlation Heatmap
+
+![Correlation Heatmap](https://github.com/user-attachments/assets/389f0f9d-0315-4e53-b8df-77385a6db3b4)
+
+> The heatmap shows strong positive correlations among key engagement features,
+> supporting their predictive value for academic performance.
+
+#### Prediction Accuracy
+
+- Our simple regression model explains about **69%** of the variation
+in student marks.
+- This means engagement patterns provide meaningful predictive power.
+
+#### Sources of Error or Uncertainty
+
+- Unmeasured factors like motivation or prior knowledge.
+- Limits of our linear model (it may not capture all complexity).
+- Data quality and accuracy of online logs.
+
+#### What Does This Mean?
+
+- Online learning platforms could use engagement data to identify students at
+risk of underperforming.
+- Instructors can intervene early, offering support or feedback to improve outcomes.
+
+### Technical Description of Our Analysis and Results
+
+We aimed to answer: **Can online engagement patterns predict academic performance?**
+
+**Analysis steps:**
+
+#### Exploratory Data Analysis (EDA)
+
+- Inspected missing values, distributions, and outliers.
+- Visualized relationships using:
+  - **Scatter plots** between average marks and key engagement metrics
+  (e.g. days active, forum posts).
+  - **Correlation heatmaps** to detect linear relationships among features.
+
+- EDA helps understand data structure, find potential predictors, and check for
+multicollinearity.
+
+#### Feature Selection & Engineering
+
+- Chose variables capturing:
+  - Logins by time of day/week
+  - Forum activity
+  - Assignments submitted
+  - Overall events
+- Dropped redundant or index columns.
+
+- We focused on measurable, meaningful engagement metrics relevant to instructors
+and LMS systems.
+
+#### Modeling Approach
+
+- Applied **Linear Regression**:
+  - Split data (80% train / 20% test).
+  - Fitted model on training set.
+  - Evaluated using **Mean Squared Error (106.68)** and **R-squared (0.69)**.
+
+**Why Linear Regression?**
+
+- Interpretable coefficients.
+- Good first step to assess linear relationships.
+- Easy to communicate findings.
+
+#### Evaluation
+
+- **Residual Plots**:
+  - Showed some spread, suggesting imperfect fit and possible heteroscedasticity.
+- **Coefficients Analysis**:
+  - Identified important features (e.g., total_events, no_of_assignments, forum posts).
+
+**Possible flaws in our analysis:**
+
+- **Linearity assumption** may not hold for all relationships.
+- **No interaction terms** or non-linear effects captured.
+- **Potential overfitting** despite test evaluation.
+- **Feature engineering scope** limited to simple counts.
+
+**Conclusion:**  
+Our linear regression model provides a solid baseline, explaining 69% of
+variance in average marks using straightforward engagement features. Future
+iterations can improve predictive power and interpretability by adopting more
+advanced modeling techniques.
+
+### Reproducibility
+
+All data, notebooks, and scripts necessary to replicate this analysis are
+included in:
+
+- /1_datasets/
+- /3_data_exploration/
+- /4_data_analysis/
+
+Please see these folders to run the full analysis pipeline using our cleaned dataset.
+
+---
+
 ## 📁 Repository Structure
 
 ```bash
@@ -237,7 +372,7 @@ Below are the data dictionaries for the files in this dataset, outlining column
 - 🔹 [Communication Plan](collaboration/communication.md)
 - 🔹 [Constraints](collaboration/constraints.md)
 - 🔹 [Learning Goals](collaboration/learning_goals.md)
-- 🔹 [Retrospective (Milestone 1)](collaboration/retrospectives)
+- 🔹 [Retrospective](collaboration/retrospectives)
 
 ---
 
@@ -248,7 +383,7 @@ Below are the data dictionaries for the files in this dataset, outlining column
 | 0        | Cross-Cultural Collaboration | 🟢 Done | June 2     |
 | 1        | Problem Identification        | 🟢 Done    | June 16    |
 | 2        | Data Collection               | 🟢 Done   | June 30    |
-| 3        | Data Analysis                 | ⏳ Upcoming    | July 21    |
+| 3        | Data Analysis                 | 🟢 Done    | July 21    |
 | 4        | Communicating Results         | ⏳ Upcoming    | August 11  |
 | 5        | Final Presentation            | ⏳ Upcoming    | August 25  |
 
