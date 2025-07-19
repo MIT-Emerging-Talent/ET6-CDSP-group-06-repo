@@ -120,4 +120,31 @@ and place it in your repository as `collaboration/retrospectives/3_data_analysis
   interpretable models can often provide more immediate value than complex
   black-box models, especially when trying to understand underlying relationships.
 
+## Individual Retrospectives
+
+### Caesar
+
+I made some big changes on one commit, and it made some difficulties,
+so i learned to make more commits along the way to avoid big conflicts.
+
+### Fahed
+
+Through this milestone, I experienced the full data science workflow from raw data
+processing to actionable insights. The most valuable learning was developing
+professional skepticism in machine learning - when our initial models showed
+perfect accuracy, instead of celebrating, I investigated and discovered data
+leakage issues. This taught me that critical thinking is just as important as
+technical skills in data science.
+
+Working with 12+ million log records and transforming them into meaningful features
+was both challenging and rewarding. I learned to balance technical complexity with
+practical constraints - sometimes simpler, interpretable models provide more value
+than complex algorithms, especially when stakeholders need to
+understand and act on the results.
+
+The systematic approach to EDA (univariate, bivariate, multivariate) helped me
+build confidence in statistical findings rather than just impressive-looking
+results. This structured methodology will be valuable in future data science
+projects where thoroughness and validity matter more than flashy metrics.
+
 ---
