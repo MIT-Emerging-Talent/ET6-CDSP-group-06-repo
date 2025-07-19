@@ -1,10 +1,8 @@
 # ET6 This project explores how data science, collaboration, and domain expertise
-
 intersect to solve real-world problems. We have successfully completed
 **Milestone 3: Data Exploration & Analysis**, demonstrating how student
 engagement patterns predict academic performance through comprehensive
-statistical analysis and machine learning models.
-Collaborative Data Science Project – Group 06
+statistical analysis and machine learning models.borative Data Science Project – Group 06
 
 [![CI Status](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml)
 
@@ -254,9 +252,6 @@ hypothesis and extract actionable insights from the Student Engagement Dataset
   outcome prediction
 - **Feature Importance**: Identified `average_marks`, `num_resource_views`, and
   `total_events` as top predictors
-- **Critical Discovery**: Demonstrated professional ML debugging by detecting
-  and correcting data leakage - achieving realistic 75-85% accuracy instead of
-  suspicious 99%+ performance
 
 **Research Question Validation:**
 Successfully demonstrated that **student engagement metrics predict academic
