@@ -136,7 +136,7 @@ perfect accuracy, instead of celebrating, I investigated and discovered data
 leakage issues. This taught me that critical thinking is just as important as
 technical skills in data science.
 
-Working with 12+ million log records and transforming them into meaningful features
+Working with log records and transforming them into meaningful features
 was both challenging and rewarding. I learned to balance technical complexity with
 practical constraints - sometimes simpler, interpretable models provide more value
 than complex algorithms, especially when stakeholders need to
