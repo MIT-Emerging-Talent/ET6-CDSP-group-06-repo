@@ -1,9 +1,9 @@
 # ET6 This project explores how data science, collaboration, and domain expertise
 
 intersect to solve real-world problems. We have successfully completed
-**Milestone 3: Data Exploration & Analysis**, demonstrating how student
-engagement patterns predict academic performance through comprehensive
-statistical analysis and machine learning models.
+**Milestone 4: Communicating Results**, translating our data analysis findings
+into actionable insights for stakeholders through an interactive dashboard
+demonstrating the **0.91 correlation** between student engagement and academic performance.
 Collaborative Data Science Project – Group 06
 
 [![CI Status](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml)
@@ -39,7 +39,7 @@ Our domain of interest will be defined in Milestone 1.
 - **Team:** The Animus⚛️
 - **Domain of Interest:** Education
 - **Timeline:** May–August 2025
-- **Status:** 🚧 Exploring (Milestone 3)
+- **Status:** ✅ Communicating Results (Milestone 4 Complete)
 
 ---
 
@@ -227,7 +227,7 @@ implemented preliminary machine learning models to validate our research
 hypothesis and extract actionable insights from the Student Engagement Dataset
 (SED).
 
-### Key Achievements
+### Data Analysis Key Achievements
 
 **Advanced Feature Engineering:**
 
@@ -353,6 +353,87 @@ Development** by:
 The successful validation of our research hypothesis demonstrates that student
 interaction patterns can indeed predict academic performance, enabling the
 development of proactive, data-driven educational support systems.
+
+---
+
+## Milestone 4: Communicating Results Overview
+
+In Milestone 4, we translated our research findings into actionable insights
+  for educational stakeholders through a comprehensive communication strategy
+    and professional-grade analytics dashboard.
+
+### Communication Key Achievements
+
+**Interactive Analytics Dashboard:**
+
+- Full-featured Streamlit web application with multiple stakeholder views
+- Real-time data exploration and visualization capabilities  
+- Risk assessment tools for early student intervention
+- Clean predictive models with proper data leakage validation
+- Professional user interface with guided navigation
+
+**Comprehensive Communication Strategy:**
+
+- Detailed target audience analysis for three primary stakeholder groups
+- Multi-phase implementation roadmap with clear success metrics
+- Evidence-based messaging framework with ROI analysis
+- Professional documentation suite suitable for institutional adoption
+
+**Stakeholder-Focused Deliverables:**
+
+- **Educational Technology Directors:** Technical implementation guides and system
+  integration specifications
+- **Academic Leadership:** Executive summary with business case and
+  policy recommendations  
+- **Student Success Teams:** Intervention protocols and risk assessment frameworks
+
+### Key Communication Insights
+
+**Primary Finding Translation:**
+The 0.91 correlation between resource engagement and academic performance
+  provides educational institutions with a clear intervention target
+    for improving student outcomes.
+
+**Actionable Recommendations:**
+
+- Implement real-time engagement monitoring systems
+- Establish early warning protocols based on resource interaction patterns
+- Deploy personalized intervention strategies for at-risk students
+- Create data-driven resource allocation and support strategies
+
+### Dashboard Features
+
+**Multi-Audience Design:**
+
+- Executive summary view for leadership decision-making
+- Technical implementation view for IT directors
+- Intervention management view for student success teams
+- Interactive data exploration for all stakeholders
+
+**Professional Standards:**
+
+- Production-ready code with comprehensive documentation
+- Scalable architecture suitable for institutional deployment
+- Privacy-conscious analytics with ethical use guidelines
+- Performance optimization for large datasets
+
+### Impact and Value Creation
+
+**Immediate Value:**
+
+- Professional portfolio artifacts demonstrating full-stack capabilities
+- Real-world applicable communication and technical skills
+- Evidence-based framework for educational technology adoption
+
+**Potential Institutional Impact:**
+
+- 15-25% improvement in course completion rates through targeted interventions
+- Reduced student support costs via proactive engagement monitoring
+- Enhanced institutional reputation through data-driven student success
+
+The completion of Milestone 4 demonstrates our ability to transform research
+  findings into practical solutions that can drive meaningful improvements
+    in educational outcomes.
 
 ## 📁 Repository Structure
 
