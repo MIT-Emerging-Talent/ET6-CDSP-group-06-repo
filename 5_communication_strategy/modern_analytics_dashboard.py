@@ -375,7 +375,7 @@ def load_trained_model():
         if os.path.exists(model_path):
             return joblib.load(model_path)
         return None
-    except Exception:
+    except (FileNotFoundError, OSError, ValueError):
         return None
 
 @st.cache_data
@@ -432,14 +432,17 @@ def load_data():
         clean_df = data_df[required_columns].dropna()
 
         def get_risk_category(marks):
-            if marks < 300: return "High Risk"
-            elif marks < 400: return "Medium Risk"
-            else: return "Low Risk"
+            if marks < 300:
+                return "High Risk"
+            elif marks < 400:
+                return "Medium Risk"
+            else:
+                return "Low Risk"
 
         clean_df["risk_category"] = clean_df["total_marks"].apply(get_risk_category)
         return clean_df, available_features
 
-    except Exception:
+    except (FileNotFoundError, pd.errors.EmptyDataError, ValueError, KeyError):
         return None, []
 
 # Load data
@@ -489,8 +492,7 @@ filtered_df = df[df["risk_category"].isin(selected_risk)]
 # Page Content
 if "OVERVIEW" in selected_nav:
     # Key Metrics in Glassmorphism Cards
-    st.markdown('<div class="section-header">PERFORMANCE METRICS</div>', unsafe_allow_html=True)
-    
+    st.markdown('<div class="section-header">PERFORMANCE METRICS</div>', unsafe_allow_html=True)   
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
@@ -524,10 +526,9 @@ if "OVERVIEW" in selected_nav:
             <div class="metric-value">{avg_marks:.0f}</div>
             <div class="metric-subtitle">Total Marks</div>
         </div>
-        """, unsafe_allow_html=True)
-    
+        """, unsafe_allow_html=True)   
     with col4:
-        high_risk_pct = (len(filtered_df[filtered_df["risk_category"] == "High Risk"]) / len(filtered_df)) * 100
+       high_risk_pct = (len(filtered_df[filtered_df["risk_category"] == "High Risk"]) / len(filtered_df)) * 100
         st.markdown(f"""
         <div class="metric-glass">
             <div class="metric-title">HIGH RISK</div>
@@ -692,7 +693,7 @@ elif "ANALYTICS" in selected_nav:
         
         st.markdown("</div>", unsafe_allow_html=True)
         
-    except Exception as e:
+    except (ValueError, KeyError, AttributeError) as e:
         st.error(f"Error in correlation analysis: {e}")
 
 elif "MODELS" in selected_nav:
@@ -834,7 +835,7 @@ elif "MODELS" in selected_nav:
             
             st.plotly_chart(fig_importance, use_container_width=True)
             
-        except Exception as e:
+        except (ValueError, AttributeError, IndexError) as e:
             st.error(f"Error displaying feature importance: {e}")
 
 elif "INSIGHTS" in selected_nav:

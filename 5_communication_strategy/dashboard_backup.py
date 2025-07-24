@@ -322,12 +322,10 @@ def load_data():
         ]
 
         data_df = None
-        used_path = None
 
         for path in possible_paths:
             try:
                 data_df = pd.read_csv(path)
-                used_path = path
                 st.success(f"✅ Successfully loaded data from: {path}")
                 break
             except FileNotFoundError:
@@ -369,13 +367,16 @@ def load_data():
         # Generate z-score features for all numerical columns (as in your notebook)
         # BUT EXCLUDE LEAKY FEATURES LIKE total_marks, average_marks, etc.
         numerical_cols = data_df.select_dtypes(include=["number"]).columns
-        
+
         # Define leaky columns that should NOT have z-scores created
         leaky_columns = {
-            'userid', 'total_marks', 'average_marks', 'course_completed',
-            'no_of_quizzes_completed'  # This could be leaky as it might relate to final performance
+            "userid",
+            "total_marks",
+            "average_marks",
+            "course_completed",
+            "no_of_quizzes_completed",  # This could be leaky as it might relate to final performance
         }
-        
+
         for col in numerical_cols:
             if col not in leaky_columns and f"zscore_{col}" not in data_df.columns:
                 # Calculate z-score only for clean features
@@ -383,14 +384,16 @@ def load_data():
                     data_df[col] - data_df[col].mean()
                 ) / data_df[col].std()
 
-        st.info("✅ Generated z-score features for numerical columns (excluding leaky features)")
+        st.info(
+            "✅ Generated z-score features for numerical columns (excluding leaky features)"
+        )
 
         # NOW define the feature list with all features available
         # Match the 24 clean features from your Colab model
         base_features = [
             # Basic engagement metrics
             "no_of_forum_created",
-            "num_forum_posts", 
+            "num_forum_posts",
             "num_resource_views",
             "num_days_active",
             "total_events",
@@ -399,7 +402,7 @@ def load_data():
             "forum_post_ratio",
             # Course and assignment metrics (but NOT completion-related)
             "number_of_courses_x",
-            "number_of_courses_y", 
+            "number_of_courses_y",
             "no_of_viewed_courses",
             "no_of_assignments",
             "number_of_quizzes",
@@ -408,7 +411,7 @@ def load_data():
             "no_of_attendance_taken",
             # Login pattern metrics
             "average_login",
-            "weekend_login", 
+            "weekend_login",
             "weekday_login",
             "midnight_login",
             "early_morning_login",
@@ -764,79 +767,104 @@ elif page == "📈 Analytics":
     # Create feature categories for better organization
     feature_categories = {
         "📝 Forum & Communication": [
-            "no_of_forum_created", "num_forum_posts", "forum_post_ratio"
+            "no_of_forum_created",
+            "num_forum_posts",
+            "forum_post_ratio",
         ],
         "📚 Learning Resources": [
-            "num_resource_views", "no_of_all_files_downloaded", "total_engagement_time_sec"
+            "num_resource_views",
+            "no_of_all_files_downloaded",
+            "total_engagement_time_sec",
         ],
         "🎯 Course Engagement": [
-            "num_unique_courses_accessed", "number_of_courses_x", "number_of_courses_y", 
-            "no_of_viewed_courses", "num_days_active", "total_events"
+            "num_unique_courses_accessed",
+            "number_of_courses_x",
+            "number_of_courses_y",
+            "no_of_viewed_courses",
+            "num_days_active",
+            "total_events",
         ],
         "📋 Assessment Activity": [
-            "no_of_assignments", "number_of_quizzes", "no_of_quizzes_attempt", "no_of_attendance_taken"
+            "no_of_assignments",
+            "number_of_quizzes",
+            "no_of_quizzes_attempt",
+            "no_of_attendance_taken",
         ],
         "⏰ Login Patterns": [
-            "average_login", "weekend_login", "weekday_login", "midnight_login",
-            "early_morning_login", "late_morning_login", "afternoon_login", 
-            "evening_login", "night_login"
-        ]
+            "average_login",
+            "weekend_login",
+            "weekday_login",
+            "midnight_login",
+            "early_morning_login",
+            "late_morning_login",
+            "afternoon_login",
+            "evening_login",
+            "night_login",
+        ],
     }
 
     # Display features in organized tabs
     tab_names = list(feature_categories.keys())
     tabs = st.tabs(tab_names)
-    
+
     for i, (category, features) in enumerate(feature_categories.items()):
         with tabs[i]:
             # Create a clean table for each category
             category_features = [f for f in features if f in clean_features]
-            
+
             if category_features:
                 feature_data = []
                 for feature in category_features:
                     desc = feature_info.get(feature, "Engagement metric")
                     # Calculate basic stats for this feature
                     feature_stats = filtered_df[feature].describe()
-                    feature_data.append({
-                        "Feature": feature.replace("_", " ").title(),
-                        "Description": desc,
-                        "Mean": f"{feature_stats['mean']:.2f}",
-                        "Std": f"{feature_stats['std']:.2f}",
-                        "Type": "Behavioral" if "login" in feature else "Engagement"
-                    })
-                
+                    feature_data.append(
+                        {
+                            "Feature": feature.replace("_", " ").title(),
+                            "Description": desc,
+                            "Mean": f"{feature_stats['mean']:.2f}",
+                            "Std": f"{feature_stats['std']:.2f}",
+                            "Type": "Behavioral"
+                            if "login" in feature
+                            else "Engagement",
+                        }
+                    )
+
                 # Display as a nice dataframe
                 feature_df = pd.DataFrame(feature_data)
                 st.dataframe(feature_df, use_container_width=True, hide_index=True)
-                
+
                 # Show feature count for this category
                 st.caption(f"📊 {len(category_features)} features in this category")
             else:
-                st.info("No features available in this category for the current dataset.")
+                st.info(
+                    "No features available in this category for the current dataset."
+                )
 
     # Summary statistics table
     st.markdown("---")
     st.markdown("### 📊 Feature Summary Statistics")
-    
+
     col1, col2 = st.columns([2, 1])
     with col1:
         # Create summary table with key statistics
         summary_data = []
         for feature in clean_features[:10]:  # Show top 10 for brevity
             stats = filtered_df[feature].describe()
-            summary_data.append({
-                "Feature": feature.replace("_", " ").title(),
-                "Mean": f"{stats['mean']:.2f}",
-                "Median": f"{stats['50%']:.2f}",
-                "Std Dev": f"{stats['std']:.2f}",
-                "Min": f"{stats['min']:.1f}",
-                "Max": f"{stats['max']:.1f}"
-            })
-        
+            summary_data.append(
+                {
+                    "Feature": feature.replace("_", " ").title(),
+                    "Mean": f"{stats['mean']:.2f}",
+                    "Median": f"{stats['50%']:.2f}",
+                    "Std Dev": f"{stats['std']:.2f}",
+                    "Min": f"{stats['min']:.1f}",
+                    "Max": f"{stats['max']:.1f}",
+                }
+            )
+
         summary_df = pd.DataFrame(summary_data)
         st.dataframe(summary_df, use_container_width=True, hide_index=True)
-        
+
     with col2:
         st.markdown(
             f"""
@@ -890,7 +918,7 @@ elif page == "📈 Analytics":
         )
 
         st.markdown("### 🔍 Key Correlations with Performance")
-        
+
         # Create correlation analysis table
         corr_data_list = []
         for feature, corr_val in total_marks_corr.items():
@@ -907,25 +935,29 @@ elif page == "📈 Analytics":
             else:
                 strength = "Very Weak"
                 strength_color = "⚪"
-            
+
             direction = "Positive" if corr_val > 0 else "Negative"
-            
-            corr_data_list.append({
-                "Feature": feature.replace("_", " ").title(),
-                "Correlation": f"{corr_val:.3f}",
-                "Strength": f"{strength_color} {strength}",
-                "Direction": direction,
-                "Abs Value": abs(corr_val)
-            })
-        
+
+            corr_data_list.append(
+                {
+                    "Feature": feature.replace("_", " ").title(),
+                    "Correlation": f"{corr_val:.3f}",
+                    "Strength": f"{strength_color} {strength}",
+                    "Direction": direction,
+                    "Abs Value": abs(corr_val),
+                }
+            )
+
         # Convert to DataFrame and display top correlations
         corr_df = pd.DataFrame(corr_data_list)
-        corr_df = corr_df.sort_values("Abs Value", ascending=False).drop("Abs Value", axis=1)
-        
+        corr_df = corr_df.sort_values("Abs Value", ascending=False).drop(
+            "Abs Value", axis=1
+        )
+
         # Display top 15 correlations in a clean table
         top_correlations = corr_df.head(15)
         st.dataframe(top_correlations, use_container_width=True, hide_index=True)
-        
+
         # Add summary insights
         col1, col2 = st.columns(2)
         with col1:
@@ -934,14 +966,14 @@ elif page == "📈 Analytics":
                 f"""
                 <div class="success-card">
                     <h4>🟢 Strongest Positive Predictor</h4>
-                    <p><strong>{strongest_positive['Feature']}</strong></p>
-                    <p>Correlation: {strongest_positive['Correlation']}</p>
+                    <p><strong>{strongest_positive["Feature"]}</strong></p>
+                    <p>Correlation: {strongest_positive["Correlation"]}</p>
                     <p>Higher values = Better performance</p>
                 </div>
-                """, 
-                unsafe_allow_html=True
+                """,
+                unsafe_allow_html=True,
             )
-        
+
         with col2:
             # Find strongest negative correlation if any
             negative_corrs = corr_df[corr_df["Direction"] == "Negative"]
@@ -951,12 +983,12 @@ elif page == "📈 Analytics":
                     f"""
                     <div class="warning-card">
                         <h4>🔴 Strongest Negative Predictor</h4>
-                        <p><strong>{strongest_negative['Feature']}</strong></p>
-                        <p>Correlation: {strongest_negative['Correlation']}</p>
+                        <p><strong>{strongest_negative["Feature"]}</strong></p>
+                        <p>Correlation: {strongest_negative["Correlation"]}</p>
                         <p>Higher values = Lower performance</p>
                     </div>
-                    """, 
-                    unsafe_allow_html=True
+                    """,
+                    unsafe_allow_html=True,
                 )
             else:
                 st.markdown(
@@ -966,8 +998,8 @@ elif page == "📈 Analytics":
                         <p>All engagement metrics show positive correlation with performance!</p>
                         <p>This indicates that more engagement consistently leads to better outcomes.</p>
                     </div>
-                    """, 
-                    unsafe_allow_html=True
+                    """,
+                    unsafe_allow_html=True,
                 )
 
     except Exception as e:
@@ -1099,9 +1131,7 @@ elif page == "🤖 Models":
                 st.info(
                     "🎯 **Data Science Best Practice:** Creating a production-ready model with verified leakage-free features for reliable real-world performance."
                 )
-                st.info(
-                    "💡 Training optimized model with ultra-clean feature set..."
-                )
+                st.info("💡 Training optimized model with ultra-clean feature set...")
 
                 # Train a simple model with available features for demo
                 from sklearn.ensemble import RandomForestClassifier
@@ -1130,7 +1160,9 @@ elif page == "🤖 Models":
                 y_pred = simple_model.predict(X_test_scaled)
                 y_pred_proba = simple_model.predict_proba(X_test_scaled)[:, 1]
 
-                st.success("✅ Created ultra-clean model with verified leakage-free features")
+                st.success(
+                    "✅ Created ultra-clean model with verified leakage-free features"
+                )
                 trained_model = simple_model  # Use simplified model
 
             else:
@@ -1164,12 +1196,18 @@ elif page == "🤖 Models":
 
             # Performance metrics - Calculate with different averaging methods for clarity
             accuracy = accuracy_score(y_test, y_pred)
-            precision_macro = precision_score(y_test, y_pred, average="macro", zero_division=0)
-            recall_macro = recall_score(y_test, y_pred, average="macro", zero_division=0)
+            precision_macro = precision_score(
+                y_test, y_pred, average="macro", zero_division=0
+            )
+            recall_macro = recall_score(
+                y_test, y_pred, average="macro", zero_division=0
+            )
             f1_macro = f1_score(y_test, y_pred, average="macro", zero_division=0)
-            
+
             # Also calculate binary classification metrics (for class 1 - completion)
-            precision_binary = precision_score(y_test, y_pred, pos_label=1, zero_division=0)
+            precision_binary = precision_score(
+                y_test, y_pred, pos_label=1, zero_division=0
+            )
             recall_binary = recall_score(y_test, y_pred, pos_label=1, zero_division=0)
             f1_binary = f1_score(y_test, y_pred, pos_label=1, zero_division=0)
 
@@ -1182,7 +1220,7 @@ elif page == "🤖 Models":
                 • Training: Hyperparameter optimized<br>
                 • Features: {len(clean_features)} clean engagement metrics<br>
                 • Test Set Size: {len(y_test)} samples<br>
-                • Positive Class (Completed): {sum(y_test)} ({sum(y_test)/len(y_test)*100:.1f}%)<br>
+                • Positive Class (Completed): {sum(y_test)} ({sum(y_test) / len(y_test) * 100:.1f}%)<br>
                 • Data Leakage: ✅ Prevented
             </div>
             """,
@@ -1193,10 +1231,10 @@ elif page == "🤖 Models":
             metrics = [
                 ("Accuracy", accuracy, "Overall correctness"),
                 ("Precision", precision_binary, "Completion prediction accuracy"),
-                ("Recall", recall_binary, "% of completers correctly identified"), 
-                ("F1-Score", f1_binary, "Balanced precision & recall")
+                ("Recall", recall_binary, "% of completers correctly identified"),
+                ("F1-Score", f1_binary, "Balanced precision & recall"),
             ]
-            
+
             for metric_name, metric_value, description in metrics:
                 st.markdown(
                     f"""
@@ -1215,41 +1253,44 @@ elif page == "🤖 Models":
 
             # Confusion Matrix
             from sklearn.metrics import confusion_matrix, classification_report
-            
+
             cm = confusion_matrix(y_test, y_pred)
             st.markdown("#### Confusion Matrix")
-            
+
             # Create a simple confusion matrix display
             col_a, col_b = st.columns(2)
             with col_a:
-                st.metric("True Negatives (Not Completed)", f"{cm[0,0]}")
-                st.metric("False Positives (Predicted Complete)", f"{cm[0,1]}")
+                st.metric("True Negatives (Not Completed)", f"{cm[0, 0]}")
+                st.metric("False Positives (Predicted Complete)", f"{cm[0, 1]}")
             with col_b:
-                st.metric("False Negatives (Missed Completers)", f"{cm[1,0]}")
-                st.metric("True Positives (Correct Completers)", f"{cm[1,1]}")
-            
+                st.metric("False Negatives (Missed Completers)", f"{cm[1, 0]}")
+                st.metric("True Positives (Correct Completers)", f"{cm[1, 1]}")
+
             # Classification report
             report = classification_report(y_test, y_pred, output_dict=True)
             st.markdown("#### Detailed Performance by Class")
-            
-            report_df = pd.DataFrame({
-                'Not Completed': [
-                    f"{report['0']['precision']:.3f}",
-                    f"{report['0']['recall']:.3f}", 
-                    f"{report['0']['f1-score']:.3f}",
-                    f"{report['0']['support']}"
-                ],
-                'Completed': [
-                    f"{report['1']['precision']:.3f}",
-                    f"{report['1']['recall']:.3f}",
-                    f"{report['1']['f1-score']:.3f}", 
-                    f"{report['1']['support']}"
-                ]
-            }, index=['Precision', 'Recall', 'F1-Score', 'Support'])
-            
+
+            report_df = pd.DataFrame(
+                {
+                    "Not Completed": [
+                        f"{report['0']['precision']:.3f}",
+                        f"{report['0']['recall']:.3f}",
+                        f"{report['0']['f1-score']:.3f}",
+                        f"{report['0']['support']}",
+                    ],
+                    "Completed": [
+                        f"{report['1']['precision']:.3f}",
+                        f"{report['1']['recall']:.3f}",
+                        f"{report['1']['f1-score']:.3f}",
+                        f"{report['1']['support']}",
+                    ],
+                },
+                index=["Precision", "Recall", "F1-Score", "Support"],
+            )
+
             st.dataframe(report_df, use_container_width=True)
 
-            # Sample predictions for demonstration  
+            # Sample predictions for demonstration
             st.markdown("#### Sample Predictions")
             sample_size = min(8, len(X_test))
             sample_indices = X_test.sample(sample_size).index
@@ -1268,7 +1309,11 @@ elif page == "🤖 Models":
                         "Complete" if p == 1 else "At Risk" for p in sample_predictions
                     ],
                     "Confidence": [
-                        "High" if p > 0.8 or p < 0.2 else "Medium" if p > 0.6 or p < 0.4 else "Low"
+                        "High"
+                        if p > 0.8 or p < 0.2
+                        else "Medium"
+                        if p > 0.6 or p < 0.4
+                        else "Low"
                         for p in sample_probabilities
                     ],
                 }
