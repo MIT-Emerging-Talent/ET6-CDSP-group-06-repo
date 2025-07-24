@@ -2158,8 +2158,9 @@ def render_predictive_models(df: pd.DataFrame, clean_features: List[str]):
                     X, y, test_size=test_size, random_state=random_state, stratify=y
                 )
                 
-                # Store results for comparison
+                # Store results for comparison AND models for saving
                 all_results = {}
+                trained_models = {}  # Store actual model objects for saving
                 
                 # 1. Evaluate your existing model
                 st.info("🔍 Evaluating your existing model...")
@@ -2178,6 +2179,7 @@ def render_predictive_models(df: pd.DataFrame, clean_features: List[str]):
                                 n_estimators=100, max_depth=10, random_state=random_state
                             )
                             new_model.fit(X_train, y_train)
+                            trained_models[f"New {model_name}"] = new_model  # Store the model
                             
                         elif model_name == "Logistic Regression":
                             scaler = StandardScaler()
@@ -2186,6 +2188,7 @@ def render_predictive_models(df: pd.DataFrame, clean_features: List[str]):
                             
                             new_model = LogisticRegression(random_state=random_state, max_iter=1000)
                             new_model.fit(X_train_scaled, y_train)
+                            trained_models[f"New {model_name}"] = {'model': new_model, 'scaler': scaler}  # Store model + scaler
                             
                             # For evaluation, we need to use scaled test data
                             new_result = ModelManager.evaluate_model_on_data(
