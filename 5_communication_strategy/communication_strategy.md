@@ -17,7 +17,11 @@ This document outlines our comprehensive communication strategy for translating
 ### Primary Artifact Description
 
 **Type:** Interactive web-based dashboard (Streamlit application)
-**File:** `fixed_analytics_dashboard.py`
+**Deployments:**
+
+- Primary Dashboard: [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+- Enhanced UI Version: [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+- Aurora Theme: [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 
 **Purpose:** Real-time visualization and analysis of student engagement
   patterns with actionable insights for educational interventions, featuring

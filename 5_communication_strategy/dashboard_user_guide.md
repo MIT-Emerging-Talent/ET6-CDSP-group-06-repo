@@ -43,10 +43,16 @@ pip install streamlit pandas plotly scikit-learn joblib
 
 ### Launching the Dashboard
 
-```bash
-cd 5_communication_strategy/
-streamlit run fixed_analytics_dashboard.py
-```
+**Access the Dashboard:**
+
+### Primary Artifact Description
+
+**Type:** Interactive web-based dashboard (Streamlit application)
+**Deployments:**
+
+- Primary Dashboard: [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+- Enhanced UI Version: [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+- Aurora Theme: [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 
 ### Required Files
 
@@ -509,7 +515,7 @@ Actual Not    TN       FP
 1. Check file paths: Ensure `cleaned_sed_dataset.csv` is accessible
 2. Verify model file: Confirm `best_random_forest_classifier.joblib` exists
 3. Check dependencies: Run `pip install -r requirements.txt`
-4. Port conflicts: Try `streamlit run --server.port 8502 fixed_analytics_dashboard.py`
+4. Browser issues: Try refreshing the deployed dashboard or using a different browser
 
 #### Missing Data Visualizations
 

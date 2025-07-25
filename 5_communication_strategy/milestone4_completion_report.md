@@ -19,7 +19,10 @@ Our team has successfully completed all required deliverables for Milestone 4:
 
 ### 1. Interactive Analytics Dashboard ✅
 
-- **File**: `fixed_analytics_dashboard.py`
+- **Live Deployments:**
+  - **Primary Dashboard:** [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+  - **Enhanced UI Version:** [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+  - **Aurora Theme:** [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 - **Type**: Streamlit web application with premium business intelligence styling
 - **Purpose**: Primary communication artifact for stakeholder engagement
 - **Features**:
@@ -82,20 +85,16 @@ Our team has successfully completed all required deliverables for Milestone 4:
   - Communication strategy execution
   - Maintenance and scaling guidelines
 
-## 🚀 How to Run the Dashboard
+## 🚀 Dashboard Access
 
-```bash
-# Navigate to communication strategy folder
-cd 5_communication_strategy/
+**Live Deployments:**
 
-# Install required dependencies (if needed)
-pip install streamlit pandas plotly scikit-learn seaborn
+- **Primary Dashboard:** [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+- **Enhanced UI Version:** [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+- **Aurora Theme:** [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 
-# Launch the dashboard
-streamlit run fixed_analytics_dashboard.py
-```
-
-The dashboard will open in your browser at `http://localhost:8501`
+**Note:** All three deployed versions offer the same core functionality
+  with different UI/UX themes and minor feature variations.
 
 ## 📈 Impact and Value Proposition
 
@@ -146,7 +145,7 @@ data_analysis.ipynb Processing
     ↓
 cleaned_sed_dataset.csv (Engineered Features)
     ↓
-fixed_analytics_dashboard.py (Interactive Communication)
+Deployed Streamlit Dashboards (Interactive Communication)
 '''
 
 ### Key Features Engineered
@@ -167,4 +166,4 @@ For questions about this milestone or the dashboard implementation,
 **Report Generated**: July 24, 2024  
 **Milestone Status**: Complete  
 **Next Milestone**: Milestone 5 - Final Presentation  
-**Dashboard URL**: `streamlit run fixed_analytics_dashboard.py`
+**Live Dashboards**: Available at streamlit.app deployments listed above

@@ -371,6 +371,19 @@ In Milestone 4, we translated our research findings into actionable insights
 - Risk assessment tools for early student intervention
 - Clean predictive models with proper data leakage validation
 - Professional user interface with guided navigation
+**Interactive Analytics Dashboard:**
+
+- Full-featured Streamlit web application with multiple stakeholder views
+- Real-time data exploration and visualization capabilities  
+- Risk assessment tools for early student intervention
+- Clean predictive models with proper data leakage validation
+- Professional user interface with guided navigation
+
+**Live Dashboard Deployments:**
+
+- **Primary Dashboard:** [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+- **Enhanced UI Version:** [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+- **Aurora Theme:** [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 
 **Comprehensive Communication Strategy:**
 

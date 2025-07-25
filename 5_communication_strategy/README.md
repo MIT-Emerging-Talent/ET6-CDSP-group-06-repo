@@ -15,7 +15,16 @@ This folder contains our comprehensive communication strategy for translating
 
 ## Communication Artifacts
 
-### 📊 [Interactive Dashboard](fixed_analytics_dashboard.py)
+### 📊 Interactive Dashboard
+
+**Live Deployments:**
+
+- **Primary Dashboard:** [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+- **Enhanced UI Version:** [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+- **Aurora Theme:** [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
+
+**Note:** All three versions offer the same core functionality with different
+  UI/UX themes and minor feature variations.
 
 ## Primary Communication Artifact
 
@@ -32,12 +41,6 @@ A comprehensive Streamlit web application that enables stakeholders to:
 - Academic Affairs Leadership
 - Student Success Coordinators
 - Faculty Members
-
-**To run the dashboard:**
-
-```bash
-streamlit run fixed_analytics_dashboard.py
-```
 
 ### 📖 [Complete User Guide](dashboard_user_guide.md)
 

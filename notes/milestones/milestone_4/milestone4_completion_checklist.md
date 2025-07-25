@@ -11,7 +11,10 @@
 
 ### 2. Communication Artifact ✅
 
-- **File:** `5_communication_strategy/fixed_analytics_dashboard.py`
+- **Live Deployments:**
+  - **Primary Dashboard:** [https://fixed-dashboard.streamlit.app](https://fixed-dashboard.streamlit.app)
+  - **Enhanced UI Version:** [https://depth-dashboard.streamlit.app](https://depth-dashboard.streamlit.app)
+  - **Aurora Theme:** [https://aurora-dashboard.streamlit.app](https://aurora-dashboard.streamlit.app)
 - **Type:** Interactive Streamlit web application with premium styling
 - **Features:**
   - Executive summary for leadership
