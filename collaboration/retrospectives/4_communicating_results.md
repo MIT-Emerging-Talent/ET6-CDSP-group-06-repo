@@ -151,6 +151,11 @@ and performance evaluation using metrics like the confusion matrix.
 It gave me a broader view of how data science translates into
 actionable insight in real-world educational contexts.
 
+### Caesar
+
+I realized the importance of bridging the gap between technical and
+non-technical language to facilitate effective communication.
+
 ### Team Learning Outcomes
 
 Through Milestone 4, we experienced the complete transition from technical analysis
