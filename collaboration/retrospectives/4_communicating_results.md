@@ -133,6 +133,24 @@ results matter more than impressive-looking metrics. This experience will be
 invaluable in professional settings where stakeholder trust determines project
 success and long-term impact.
 
+## Mohammad 
+
+I developed a better appreciation for how crucial feature selection,
+interpretability, and preprocessing are to meaningful predictions.
+
+A particularly valuable lesson was the importance of simplicity and
+clarity—not just in visualizations, but in model selection as well.
+In real-world education systems, stakeholders often benefit more
+from models that are interpretable and grounded in observable
+behaviors than from overly complex techniques.
+
+Through this workflow, I’ve gained experience in end-to-end
+machine learning processes, including data exploration,
+target definition, visualization, feature importance analysis,
+and performance evaluation using metrics like the confusion matrix.
+It gave me a broader view of how data science translates into
+actionable insight in real-world educational contexts.
+
 ### Team Learning Outcomes
 
 Through Milestone 4, we experienced the complete transition from technical analysis
