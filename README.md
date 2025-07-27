@@ -17,6 +17,13 @@ together diverse perspectives, technical backgrounds, and cultural experiences
 to explore real-world applications of data science and contribute meaningful
 insights to educational technology.
 
+- [Caesar](https://github.com/CaesarGhazi) ➡️
+- [Fahed](https://github.com/RandomProjects-db) ➡️
+- [Tomas](https://github.com/Sufi-to) ➡️
+- [Terry](https://github.com/terryekoe) ➡️
+- [Mohamed](https://github.com/MohammadRAlSalloum) ➡️
+- [Maria](https://github.com/MaRia19280) ➡️
+
 ---
 
 This project explores how data science, collaboration, and domain expertise
@@ -558,15 +565,6 @@ cd ET6-CDSP-group-06-repo
 ```
 
 ---
-
-## 👥 Team Members
-
-- [Caesar](https://github.com/CaesarGhazi) ➡️
-- [Fahed](https://github.com/RandomProjects-db) ➡️
-- [Tomas](https://github.com/Sufi-to) ➡️
-- [Terry](https://github.com/terryekoe) ➡️
-- [Mohamed](https://github.com/MohammadRAlSalloum) ➡️
-- [Maria](https://github.com/MaRia19280) ➡️
 
 ## 📄 License
 
