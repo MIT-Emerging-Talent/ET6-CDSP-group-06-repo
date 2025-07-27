@@ -1,10 +1,10 @@
-# ET6 This project explores how data science, collaboration, and domain expertise
+# ET6 Collaborative Data Science Project – Group 06
 
+This project explores how data science, collaboration, and domain expertise
 intersect to solve real-world problems. We have successfully completed
 **Milestone 4: Communicating Results**, translating our data analysis findings
 into actionable insights for stakeholders through an interactive dashboard
 demonstrating the **0.91 correlation** between student engagement and academic performance.
-Collaborative Data Science Project – Group 06
 
 [![CI Status](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml)
 
