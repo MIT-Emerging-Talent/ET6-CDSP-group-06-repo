@@ -485,7 +485,7 @@ The completion of Milestone 4 demonstrates our ability to transform research
 | 1        | Problem Identification        | 🟢 Done    | June 16    |
 | 2        | Data Collection               | 🟢 Done   | June 30    |
 | 3        | Data Analysis                 | 🟢 Done    | July 21    |
-| 4        | Communicating Results         | ⏳ Upcoming    | August 11  |
+| 4        | Communicating Results         | 🟢 Done   | August 11  |
 | 5        | Final Presentation            | ⏳ Upcoming    | August 25  |
 
 ---
