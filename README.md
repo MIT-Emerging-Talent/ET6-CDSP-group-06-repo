@@ -70,7 +70,7 @@ accountability.
 Applying systems thinking to student engagement in online learning reveals a
   complex interplay of factors across multiple system levels. See the visual below:
 
-![Systems Thinking Diagram](notes/milestones/milestone_4/visuals/systems-thinking.png)
+![Systems Thinking Diagram](./notes/milestones/milestone_4/visuals/Group%20Understanding%20(Systems%20Thinking)%20-%20visual%20selection.png "Systems Thinking Diagram")
 
 **Systems Analysis Summary:**
 
