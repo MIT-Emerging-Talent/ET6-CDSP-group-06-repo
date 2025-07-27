@@ -68,91 +68,9 @@ accountability.
 ### Group Understanding (Systems Thinking)
 
 Applying systems thinking to student engagement in online learning reveals a
-complex interplay of factors across multiple system levels:
+  complex interplay of factors across multiple system levels. See the visual below:
 
-```mermaid
-graph TD
-    %% Mental Models Level
-    subgraph "Mental Models (Beliefs & Assumptions)"
-        MM1[Student: Self-discipline beliefs]
-        MM2[Instructor: Autonomy assumptions]
-        MM3[Institution: Technology-first mindset]
-    end
-
-    %% Structures Level  
-    subgraph "Structures (Systems & Policies)"
-        S1[Course Design]
-        S2[Platform Limitations]
-        S3[Instructor Pedagogy]
-        S4[Socio-economic Factors]
-        S5[Support Services]
-        S6[Assessment Methods]
-    end
-
-    %% Patterns Level
-    subgraph "Patterns (Recurring Behaviors)"
-        P1[Activity Decline After Week 2]
-        P2[Higher Disengagement in Self-paced]
-        P3[Low Forum Participation]
-        P4[Resource Access Patterns]
-    end
-
-    %% Events Level
-    subgraph "Events (Observable Symptoms)"
-        E1[Missed Deadlines]
-        E2[Minimal Login Activity]
-        E3[Poor Assignment Quality]
-        E4[Course Withdrawals]
-    end
-
-    %% Intervention Points
-    subgraph "Data-Driven Interventions"
-        I1[Early Warning Systems]
-        I2[Personalized Nudges]
-        I3[Resource Optimization]
-        I4[Adaptive Learning Paths]
-    end
-
-    %% Relationships
-    MM1 --> S3
-    MM2 --> S1
-    MM3 --> S2
-    
-    S1 --> P1
-    S2 --> P3
-    S3 --> P2
-    S4 --> P4
-    
-    P1 --> E1
-    P2 --> E2
-    P3 --> E3
-    P4 --> E4
-    
-    %% Data Science Impact
-    E1 --> I1
-    E2 --> I1
-    P1 --> I2
-    P4 --> I3
-    S1 --> I4
-
-    %% Feedback loops
-    I1 -.-> S5
-    I2 -.-> S3
-    I3 -.-> S1
-    I4 -.-> S6
-
-    classDef mentalModel fill:#ff9999
-    classDef structure fill:#99ccff
-    classDef pattern fill:#99ff99
-    classDef event fill:#ffcc99
-    classDef intervention fill:#cc99ff
-
-    class MM1,MM2,MM3 mentalModel
-    class S1,S2,S3,S4,S5,S6 structure
-    class P1,P2,P3,P4 pattern
-    class E1,E2,E3,E4 event
-    class I1,I2,I3,I4 intervention
-```
+![Systems Thinking Diagram](notes/milestones/milestone_4/visuals/systems-thinking.png)
 
 **Systems Analysis Summary:**
 
@@ -264,85 +182,9 @@ performance and course completion rates**:
 
 ### Data Science Pipeline Overview
 
-```mermaid
-flowchart LR
-    %% Data Sources
-    subgraph "Raw Data Sources"
-        D1[Student Activity Logs<br/>12M+ interactions]
-        D2[Grade Records<br/>16,909 students]
-        D3[Course Metadata<br/>2,826 courses]
-    end
+See the full data science pipeline visualized below:
 
-    %% Data Processing
-    subgraph "Data Processing Pipeline"
-        P1[Data Cleaning<br/>& Validation]
-        P2[Feature Engineering<br/>50+ metrics]
-        P3[Temporal Analysis<br/>Activity patterns]
-        P4[Statistical Analysis<br/>Correlation studies]
-    end
-
-    %% Machine Learning
-    subgraph "Machine Learning Models"
-        ML1[Linear Regression<br/>Baseline model]
-        ML2[Random Forest<br/>Best performance]
-        ML3[Ridge/Lasso<br/>Regularization]
-        ML4[Validation Pipeline<br/>No data leakage]
-    end
-
-    %% Insights & Applications
-    subgraph "Actionable Insights"
-        I1[Early Warning System<br/>92% accuracy]
-        I2[Risk Assessment<br/>Real-time alerts]
-        I3[Intervention Triggers<br/>Automated support]
-        I4[Resource Optimization<br/>Content recommendations]
-    end
-
-    %% Stakeholder Deliverables
-    subgraph "Stakeholder Tools"
-        S1[Interactive Dashboard<br/>Multi-audience views]
-        S2[Executive Reports<br/>ROI analysis]
-        S3[Implementation Guide<br/>Technical specs]
-        S4[User Documentation<br/>Training materials]
-    end
-
-    %% Flow connections
-    D1 --> P1
-    D2 --> P1
-    D3 --> P1
-    
-    P1 --> P2
-    P2 --> P3
-    P3 --> P4
-    
-    P4 --> ML1
-    P4 --> ML2
-    P4 --> ML3
-    P4 --> ML4
-    
-    ML2 --> I1
-    ML2 --> I2
-    I1 --> I3
-    P4 --> I4
-    
-    I1 --> S1
-    I2 --> S1
-    I3 --> S2
-    I4 --> S3
-    S1 --> S4
-
-    %% Styling
-    classDef dataSource fill:#e1f5fe
-    classDef processing fill:#f3e5f5
-    classDef ml fill:#e8f5e8
-    classDef insights fill:#fff3e0
-    classDef stakeholder fill:#fce4ec
-
-    class D1,D2,D3 dataSource
-    class P1,P2,P3,P4 processing
-    class ML1,ML2,ML3,ML4 ml
-    class I1,I2,I3,I4 insights
-    class S1,S2,S3,S4 stakeholder
-```
+![Data Science Pipeline](notes/milestones/milestone_4/visuals/data-pipeline.png)
 
 ### Predictive Modeling Results
 
