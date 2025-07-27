@@ -184,7 +184,7 @@ performance and course completion rates**:
 
 See the full data science pipeline visualized below:
 
-![Data Science Pipeline](notes/milestones/milestone_4/visuals/data-pipeline.png)
+![Data Science Pipeline](./notes/milestones/milestone_4/visuals/Data%20Science%20Pipeline%20Overview%20-%20visual%20selection.png "Data Science Pipeline")
 
 ### Predictive Modeling Results
 
