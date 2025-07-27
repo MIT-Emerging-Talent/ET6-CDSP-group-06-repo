@@ -1,14 +1,29 @@
-# ET6 This project explores how data science, collaboration, and domain expertise
+# Student Engagement Analytics: A Data Science Approach to Educational Outcomes
 
-intersect to solve real-world problems. We have successfully completed
-**Milestone 4: Communicating Results**, translating our data analysis findings
-into actionable insights for stakeholders through an interactive dashboard
-demonstrating the **0.91 correlation** between student engagement and academic performance.
-Collaborative Data Science Project – Group 06
+## Collaborative Data Science Project – Group 06: The Animus⚛️
 
 [![CI Status](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml/badge.svg)](https://github.com/MIT-Emerging-Talent/ET6-CDSP-group-06-repo/actions/workflows/ci-checks.yml)
 
-Welcome to our MIT Emerging Talent Collaborative Data Science Project repository.
+This project explores how data science, collaboration, and domain expertise
+intersect to solve real-world problems in education. Our research demonstrates
+a **0.91 correlation** between student engagement and academic performance,
+providing educational institutions with actionable insights through interactive
+analytics dashboards.
+
+## 👋 Meet the Team
+
+We are **The Animus⚛️** from the 2025 MIT Emerging Talent program. Our team brings
+together diverse perspectives, technical backgrounds, and cultural experiences
+to explore real-world applications of data science and contribute meaningful
+insights to educational technology.
+
+---
+
+This project explores how data science, collaboration, and domain expertise
+intersect to solve real-world problems in education. Our research demonstrates
+a **0.91 correlation** between student engagement and academic performance,
+providing educational institutions with actionable insights through interactive
+analytics dashboards.
 
 This project explores how data science, collaboration, and domain expertise
 intersect to solve real-world problems. We are currently
@@ -18,32 +33,17 @@ and within our groups’ constraints.
 
 ---
 
-## 👋 Meet the Team
-
-We are **The Animus⚛️** from the 2025 MIT Emerging Talent program. Our team brings
-together diverse perspectives, technical backgrounds, and cultural experiences.
-Through this project, we hope to:
-
-- Strengthen our collaboration skills in a distributed, cross-cultural environment
-- Learn how to design and execute data-driven research as a team
-- Explore real-world applications of data science and contribute meaningful
-insights to a selected domain
-
-Our domain of interest will be defined in Milestone 1.
-
----
-
 ## 🔍 Project Overview
 
 - **Track:** Collaborative Data Science Project (CDSP)
 - **Team:** The Animus⚛️
 - **Domain of Interest:** Education
 - **Timeline:** May–August 2025
-- **Status:** ✅ Communicating Results (Milestone 4 Complete)
+- **Status:** ✅ Complete Research and Communication Implementation
 
 ---
 
-## 🎯 Milestone 1: Problem Identification
+## 🎯 Problem Identification
 
 ### Problem Statement
 
@@ -61,15 +61,99 @@ accountability.
 ### Group Understanding (Systems Thinking)
 
 Applying systems thinking to student engagement in online learning reveals a
-complex interplay of factors:
+complex interplay of factors across multiple system levels:
 
-- **Events:** Missed deadlines, low forum participation, minimal login activity.
-- **Patterns:** Decline in activity after initial weeks, higher disengagement in
-  self-paced courses.
-- **Structures:** Course design flaws, platform limitations, instructor pedagogy,
-  socio-economic factors.
-- **Mental Models:** Student beliefs about self-discipline, instructor
-  assumptions about autonomy.
+```mermaid
+graph TD
+    %% Mental Models Level
+    subgraph "Mental Models (Beliefs & Assumptions)"
+        MM1[Student: Self-discipline beliefs]
+        MM2[Instructor: Autonomy assumptions]
+        MM3[Institution: Technology-first mindset]
+    end
+
+    %% Structures Level  
+    subgraph "Structures (Systems & Policies)"
+        S1[Course Design]
+        S2[Platform Limitations]
+        S3[Instructor Pedagogy]
+        S4[Socio-economic Factors]
+        S5[Support Services]
+        S6[Assessment Methods]
+    end
+
+    %% Patterns Level
+    subgraph "Patterns (Recurring Behaviors)"
+        P1[Activity Decline After Week 2]
+        P2[Higher Disengagement in Self-paced]
+        P3[Low Forum Participation]
+        P4[Resource Access Patterns]
+    end
+
+    %% Events Level
+    subgraph "Events (Observable Symptoms)"
+        E1[Missed Deadlines]
+        E2[Minimal Login Activity]
+        E3[Poor Assignment Quality]
+        E4[Course Withdrawals]
+    end
+
+    %% Intervention Points
+    subgraph "Data-Driven Interventions"
+        I1[Early Warning Systems]
+        I2[Personalized Nudges]
+        I3[Resource Optimization]
+        I4[Adaptive Learning Paths]
+    end
+
+    %% Relationships
+    MM1 --> S3
+    MM2 --> S1
+    MM3 --> S2
+    
+    S1 --> P1
+    S2 --> P3
+    S3 --> P2
+    S4 --> P4
+    
+    P1 --> E1
+    P2 --> E2
+    P3 --> E3
+    P4 --> E4
+    
+    %% Data Science Impact
+    E1 --> I1
+    E2 --> I1
+    P1 --> I2
+    P4 --> I3
+    S1 --> I4
+
+    %% Feedback loops
+    I1 -.-> S5
+    I2 -.-> S3
+    I3 -.-> S1
+    I4 -.-> S6
+
+    classDef mentalModel fill:#ff9999
+    classDef structure fill:#99ccff
+    classDef pattern fill:#99ff99
+    classDef event fill:#ffcc99
+    classDef intervention fill:#cc99ff
+
+    class MM1,MM2,MM3 mentalModel
+    class S1,S2,S3,S4,S5,S6 structure
+    class P1,P2,P3,P4 pattern
+    class E1,E2,E3,E4 event
+    class I1,I2,I3,I4 intervention
+```
+
+**Systems Analysis Summary:**
+
+- **Mental Models** (beliefs) influence **Structures** (systems)
+- **Structures** create **Patterns** (recurring behaviors)  
+- **Patterns** manifest as **Events** (observable symptoms)
+- **Data Science Interventions** target multiple system levels simultaneously
+- **Feedback loops** enable continuous system improvement
 
 ### Actionable Research Question
 
@@ -102,130 +186,35 @@ For detailed stakeholder analysis, see: [Stakeholder Breakdown](0_domain_study/s
 
 ---
 
-## Milestone 2: Data Collection Overview
+## 📊 Data Collection Overview
 
-This folder contains the primary dataset selected for our project, "Addressing
-Student Engagement in Online Learning Environments," as part of Milestone 2:
-Data Collection. The chosen dataset is the **Student Engagement Dataset (SED)**,
-combined from various files to provide both granular activity logs and student
-performance metrics.
+Our research utilizes the **Student Engagement Dataset (SED)**, a comprehensive
+collection combining granular activity logs with student performance metrics.
+The SED dataset provides both raw student interaction logs and corresponding
+grade information, supporting our research question through complete data
+modeling from raw observations to structured features.
 
-The SED dataset was chosen as our primary dataset due to its comprehensive
-nature, offering both raw student interaction logs and corresponding grade
-information. This allows us to fulfill the Milestone 2 requirements of
-collecting, cleaning, documenting, and hosting a dataset by engaging in the full
-data modeling process—from raw observations to structured features. It directly
-supports our actionable research question by providing the necessary data on
-student interaction patterns, academic performance, and course completion rates.
+**Dataset Components:**
 
-**Files Included in this Folder:**
-
-- `SED_Student_log.csv`: Contains granular student activity logs (component, action,
-  target, userid, courseid, timecreated).
-- `Student_activity_summary.csv`: Provides aggregated activity metrics per student.
-- `Student_grade_aggregated.csv`: Contains aggregated grade information per student.
+- `SED_Student_log.csv`: Contains granular student activity logs (component,
+  action, target, userid, courseid, timecreated).
+- `Student_activity_summary.csv`: Provides aggregated activity metrics per
+  student.
+- `Student_grade_aggregated.csv`: Contains aggregated grade information per
+  student.
 - `Student_grade_detailed.csv`: Provides detailed grade information per student
   per course.
 
-### Data Dictionaries
-
-Below are the data dictionaries for the files in this dataset, outlining column
-  names, data types, unique values, and missing values. These serve as initial
-    documentation for understanding the dataset.
-
-| Column Name | Data Type | Unique Values | Missing Values | Description |
-|:------------|:----------|--------------:|---------------:|:------------|
-| Unnamed: 0 | int64 | 12139424 | 0 | Index column from original CSV. |
-| component | object | 36 | 0 | The Moodle component involved in the activity  |
-| action | object | 37 | 0 | The specific action performed by the user  |
-| target | object | 74 | 0 | The specific item or context of the action |
-| userid | int64 | 16128 | 0 | Unique identifier for the student. |
-| courseid | int64 | 2826 | 0 | Unique identifier for the course. |
-| timecreated | object | 6040037 | 0 | Timestamp of when the activity occurred. |
-
-#### `Student_activity_summary.csv` Data Dictionary
-
-| Column Name | Data Type | Unique Values | Missing Values | Description |
-|:------------|:----------|--------------:|---------------:|:------------|
-| `Unnamed: 0` | int64 | 16128 | 0 | Index column from original CSV. |
-| `userid` | float64 | 16128 | 0 | Unique identifier for the student. |
-| `number_of_courses` | float64 | 10 | 0 | # of courses students enrolled in. |
-| `average_marks` | float64 | 1589 | 0 | Average obtained - across all courses. |
-| `average_login` | float64 | 1024 | 0 | Average number of logins. |
-| `weekend_login` | float64 | 291 | 0 | Average # of logins during weekends. |
-| `weekday_login` | float64 | 948 | 0 | Average # of logins during weekdays. |
-| `midnight_login` | float64 | 344 | 0 | Average # of logins during midnight. |
-| `early_morning_login` | float64 | 291 | 0 | Average #  logins early morning |
-| `late_morning_login` | float64 | 291 | 0 | Average # of logins late morning |
-| `afternoon_login` | float64 | 344 | 0 | Average nu#mber of logins  afternoon. |
-| `evening_login` | float64 | 102 | 0 | Average # of logins during evening. |
-| `night_login` | float64 | 102 | 0 | Average number of logins during night |
-| `no_of_viewed_courses` | float64 | 1148 | 0 | Average # of courses viewed. |
-| `no_of_attendance_taken` | float64 | 102 | 0 | Average # attendances taken. |
-| `no_of_all_files_downloaded` | float64 | 102 | 0 | Avg # files downloaded. |
-| `no_of_assignments` | float64 | 102 | 0 | Avg # of assignments submitted. |
-| `no_of_forum_created` | float64 | 102 | 0 | Average # of forum posts created. |
-| `number_of_quizzes` | float64 | 102 | 0 | Average # of quizzes available. |
-| `no_of_quizzes_completed` | float64 | 102 | 0 | Average # of quizzes compl. |
-| `no_of_quizzes_attempt` | float64 | 102 | 0 | Average # of quizzes attempted. |
-
-#### `Student_grade_aggregated.csv` Data Dictionary
-
-| Column Name | Data Type | Unique Values | Missing Values | Description |
-|:------------|:----------|--------------:|---------------:|:------------|
-| `Unnamed: 0` | int64 | 16128 | 0 | Index column from original CSV. |
-| `userid` | int64 | 16128 | 0 | Unique identifier for the student. |
-| `number_of_courses` | float64 | 10 | 0 | # of courses the student is enrolled in.|
-| `total_marks` | float64 | 1589 | 0 | Total marks obtained across all courses.|
-
-#### `Student_grade_detailed.csv` Data Dictionary
-
-| Column Name | Data Type | Unique Values | Missing Values | Description |
-|:------------|:----------|--------------:|---------------:|:------------|
-| `Unnamed: 0` | int64 | 16609 | 0 | Index column from original CSV. |
-| `userid` | int64 | 16128 | 0 | Unique identifier for the student. |
-| `courseid` | int64 | 2826 | 0 | Unique identifier for the course. |
-| `formatted agreed mark` | object | 1589 | 0 | Formatted agreed mark for the course.|
-| `actual grade` | object | 10 | 0 | Actual letter grade for the course. |
-| `faculty` | object | 10 | 0 | Faculty the course belongs to. |
-
-### Data Cleaning and Preprocessing Notes
-
-- The `SED_Student_log.csv` is a large file and will require significant processing
-  to extract meaningful features for engagement. This will involve timestamp parsing,
-    grouping by user and course, and counting specific actions.
-- Missing values and data types will need careful handling during the cleaning process.
-- The `userid` and `courseid` columns will be crucial for joining the log data
-  with the grade and activity summary files.
-
-### Next Steps for Data Preparation
-
-1. **Feature Engineering from `SED_Student_log.csv`:**  
-   Transform raw log data into features representing student interaction patterns
-   (e.g., total logins, time spent, forum activity counts, resource access  
-   frequency).
-
-2. **Data Integration:**  
-   Join the engineered features from `SED_Student_log.csv` with  
-   `Student_activity_summary.csv`, `Student_grade_aggregated.csv`, and  
-   `Student_grade_detailed.csv` using `userid` and `courseid`.
-
-3. **Final Cleaning and Validation:**  
-   Address any remaining missing values, outliers, and inconsistencies in the  
-   combined dataset.
-
-4. **Final Data Dictionary:**  
-   Create a comprehensive data dictionary for the final, cleaned, and integrated
-   dataset.
+**Data Documentation:** Complete data dictionaries and preprocessing notes are
+available in [`1_datasets/README.md`](1_datasets/README.md).
 
 ---
 
-## Milestone 3: Data Exploration & Analysis Overview
+## 🔬 Data Exploration & Analysis Overview
 
-In Milestone 3, we conducted comprehensive exploratory data analysis (EDA) and
-implemented preliminary machine learning models to validate our research
-hypothesis and extract actionable insights from the Student Engagement Dataset
-(SED).
+We conducted comprehensive exploratory data analysis (EDA) and implemented
+machine learning models to validate our research hypothesis and extract
+actionable insights from the Student Engagement Dataset (SED).
 
 ### Data Analysis Key Achievements
 
@@ -265,6 +254,88 @@ performance and course completion rates**:
 - Resource viewing patterns serve as primary engagement indicators
 - Temporal activity consistency predicts course completion probability
 - Forum participation correlates significantly with academic success
+
+### Data Science Pipeline Overview
+
+```mermaid
+flowchart LR
+    %% Data Sources
+    subgraph "Raw Data Sources"
+        D1[Student Activity Logs<br/>12M+ interactions]
+        D2[Grade Records<br/>16,909 students]
+        D3[Course Metadata<br/>2,826 courses]
+    end
+
+    %% Data Processing
+    subgraph "Data Processing Pipeline"
+        P1[Data Cleaning<br/>& Validation]
+        P2[Feature Engineering<br/>50+ metrics]
+        P3[Temporal Analysis<br/>Activity patterns]
+        P4[Statistical Analysis<br/>Correlation studies]
+    end
+
+    %% Machine Learning
+    subgraph "Machine Learning Models"
+        ML1[Linear Regression<br/>Baseline model]
+        ML2[Random Forest<br/>Best performance]
+        ML3[Ridge/Lasso<br/>Regularization]
+        ML4[Validation Pipeline<br/>No data leakage]
+    end
+
+    %% Insights & Applications
+    subgraph "Actionable Insights"
+        I1[Early Warning System<br/>92% accuracy]
+        I2[Risk Assessment<br/>Real-time alerts]
+        I3[Intervention Triggers<br/>Automated support]
+        I4[Resource Optimization<br/>Content recommendations]
+    end
+
+    %% Stakeholder Deliverables
+    subgraph "Stakeholder Tools"
+        S1[Interactive Dashboard<br/>Multi-audience views]
+        S2[Executive Reports<br/>ROI analysis]
+        S3[Implementation Guide<br/>Technical specs]
+        S4[User Documentation<br/>Training materials]
+    end
+
+    %% Flow connections
+    D1 --> P1
+    D2 --> P1
+    D3 --> P1
+    
+    P1 --> P2
+    P2 --> P3
+    P3 --> P4
+    
+    P4 --> ML1
+    P4 --> ML2
+    P4 --> ML3
+    P4 --> ML4
+    
+    ML2 --> I1
+    ML2 --> I2
+    I1 --> I3
+    P4 --> I4
+    
+    I1 --> S1
+    I2 --> S1
+    I3 --> S2
+    I4 --> S3
+    S1 --> S4
+
+    %% Styling
+    classDef dataSource fill:#e1f5fe
+    classDef processing fill:#f3e5f5
+    classDef ml fill:#e8f5e8
+    classDef insights fill:#fff3e0
+    classDef stakeholder fill:#fce4ec
+
+    class D1,D2,D3 dataSource
+    class P1,P2,P3,P4 processing
+    class ML1,ML2,ML3,ML4 ml
+    class I1,I2,I3,I4 insights
+    class S1,S2,S3,S4 stakeholder
+```
 
 ### Predictive Modeling Results
 
@@ -311,10 +382,10 @@ Our analysis provides evidence-based foundations for:
 
 ### Technical Documentation
 
-#### 📂 Milestone 3 Documentation Structure
+#### 📂 Technical Documentation Structure
 
 ```text
-Milestone 3 Documentation Suite:
+Research Documentation Suite:
 ├── 3_data_exploration/README.md                    # Complete EDA docs
 ├── 3_data_exploration/milestone3_key_findings.md   # Statistical discoveries
 ├── 3_data_exploration/milestone3_preliminary_modeling_approach.md  # Method
@@ -338,39 +409,29 @@ Milestone 3 Documentation Suite:
 - **[`3_data_exploration/milestone3_preliminary_modeling_approach.md`](3_data_exploration/milestone3_preliminary_modeling_approach.md)**:
   Detailed methodology and technical approach
 - **[`notes/milestones/milestone_3/milestone3_project_summary.md`](notes/milestones/milestone_3/milestone3_project_summary.md)**:
-  Executive summary of all Milestone 3 achievements
+  Executive summary of all achievements
 
-### Impact & Next Steps
+### Research Impact
 
-This milestone establishes the foundation for **Milestone 4: Advanced Model
-Development** by:
+Our successful validation demonstrates that student interaction patterns predict
+academic performance, enabling the development of proactive, data-driven
+educational support systems. The research establishes:
 
-- Proving the predictive power of engagement metrics on academic outcomes
-- Identifying most influential features for model refinement
-- Creating baseline performance benchmarks for advanced algorithms
-- Providing evidence-based recommendations for educational intervention design
-
-The successful validation of our research hypothesis demonstrates that student
-interaction patterns can indeed predict academic performance, enabling the
-development of proactive, data-driven educational support systems.
+- Predictive power of engagement metrics on academic outcomes
+- Most influential features for model refinement  
+- Baseline performance benchmarks for advanced algorithms
+- Evidence-based recommendations for educational intervention design
 
 ---
 
-## Milestone 4: Communicating Results Overview
+## 📈 Communicating Results Overview
 
-In Milestone 4, we translated our research findings into actionable insights
-  for educational stakeholders through a comprehensive communication strategy
-    and professional-grade analytics dashboard.
+We translated our research findings into actionable insights for educational
+stakeholders through a comprehensive communication strategy and professional-grade
+analytics dashboard.
 
 ### Communication Key Achievements
 
-**Interactive Analytics Dashboard:**
-
-- Full-featured Streamlit web application with multiple stakeholder views
-- Real-time data exploration and visualization capabilities  
-- Risk assessment tools for early student intervention
-- Clean predictive models with proper data leakage validation
-- Professional user interface with guided navigation
 **Interactive Analytics Dashboard:**
 
 - Full-featured Streamlit web application with multiple stakeholder views
@@ -444,9 +505,8 @@ The 0.91 correlation between resource engagement and academic performance
 - Reduced student support costs via proactive engagement monitoring
 - Enhanced institutional reputation through data-driven student success
 
-The completion of Milestone 4 demonstrates our ability to transform research
-  findings into practical solutions that can drive meaningful improvements
-    in educational outcomes.
+Our research demonstrates the ability to transform findings into practical
+solutions that drive meaningful improvements in educational outcomes.
 
 ## 📁 Repository Structure
 
@@ -473,20 +533,20 @@ The completion of Milestone 4 demonstrates our ability to transform research
 - 🔹 [Communication Plan](collaboration/communication.md)
 - 🔹 [Constraints](collaboration/constraints.md)
 - 🔹 [Learning Goals](collaboration/learning_goals.md)
-- 🔹 [Retrospective (Milestone 1)](collaboration/retrospectives)
+- 🔹 [Retrospectives](collaboration/retrospectives)
 
 ---
 
-## 🗓️ Project Milestones
+## 🗓️ Project Timeline
 
-| Milestone | Focus                        | Status        | Due Date   |
-|----------|------------------------------|---------------|------------|
-| 0        | Cross-Cultural Collaboration | 🟢 Done | June 2     |
-| 1        | Problem Identification        | 🟢 Done    | June 16    |
-| 2        | Data Collection               | 🟢 Done   | June 30    |
-| 3        | Data Analysis                 | 🟢 Done    | July 21    |
-| 4        | Communicating Results         | 🟢 Done   | August 11  |
-| 5        | Final Presentation            | ⏳ Upcoming    | August 25  |
+| Phase | Focus                        | Status        | Due Date   |
+|-------|------------------------------|---------------|------------|
+| 0     | Cross-Cultural Collaboration | 🟢 Done       | June 2     |
+| 1     | Problem Identification        | 🟢 Done       | June 16    |
+| 2     | Data Collection               | 🟢 Done       | June 30    |
+| 3     | Data Analysis                 | 🟢 Done       | July 21    |
+| 4     | Communicating Results         | 🟢 Done       | August 11  |
+| 5     | Final Presentation            | ⏳ Upcoming   | August 25  |
 
 ---
 
