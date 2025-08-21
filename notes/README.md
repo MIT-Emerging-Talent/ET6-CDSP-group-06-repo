@@ -27,7 +27,7 @@ any milestone below to explore detailed documentation, processes, and outcomes:
 | 📊 [**Milestone 2**](milestones/milestone_2/) | Data Collection | ✅ Complete |
 | 🔍 [**Milestone 3**](milestones/milestone_3/) | Data Exploration | ✅ Complete |
 | 🤖 [**Milestone 4**](milestones/milestone_4/) | Communication | ✅ Complete |
-| 📢 [**Milestone 5**](milestones/milestone_5/) | Final Presentation | ⏳ Upcoming |
+| 📢 [**Milestone 5**](milestones/milestone_5/) | Presentation | ⏳ Upcoming |
 
 ### 📁 What You'll Find in Each Milestone
 
