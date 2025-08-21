@@ -141,16 +141,6 @@ loads who may be struggling
 - **Feature importance**: `average_marks`, `num_resource_views`, and
   `total_events` are top predictors
 
-## 🚀 Next Steps
-
-The insights from this milestone inform **Milestone 4: Model Development &
-Evaluation** where we will:
-
-- Refine predictive models based on EDA insights
-- Implement advanced feature selection techniques
-- Develop comprehensive evaluation frameworks
-- Design intervention strategies based on predictive patterns
-
 ## 📖 How to Navigate This Work
 
 1. **Start with**: [`milestone3_key_findings.md`](milestone3_key_findings.md)
@@ -165,5 +155,5 @@ Evaluation** where we will:
 ---
 
 *This milestone represents the bridge between data preparation (Milestone 2) and
-advanced modeling (Milestone 4), providing crucial insights that guide our
+Communicating Results (Milestone 4), providing crucial insights that guide our
 research direction.*
