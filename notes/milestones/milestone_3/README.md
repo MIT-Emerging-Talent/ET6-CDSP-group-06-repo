@@ -82,7 +82,7 @@ Successfully demonstrated that **engagement metrics predict academic outcomes**:
 
 ### Foundation for Milestone 4
 
-This work establishes the groundwork for advanced model development:
+This work establishes the groundwork for communicating results:
 
 - **Baseline Performance**: Established for multiple ML approaches
 - **Feature Selection**: Identified most predictive engagement metrics
@@ -125,6 +125,6 @@ performance and course completion rates.
 
 ---
 
-*This milestone successfully bridges data preparation and advanced modeling,
+*This milestone successfully bridges data preparation and Communicating Results,
 providing crucial insights that guide our research direction and intervention
 strategy development.*
